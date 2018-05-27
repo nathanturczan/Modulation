@@ -74,6 +74,7 @@ for name_1, value_1 in arr_dict.items():
     for name_2, value_2 in arr_dict.items():
         begin_chord = value_2['first_chord']
         end_chord = value_1['last_chord']
+        #the tenor:alto interval AND the alto:soprano interval must match up.
         if end_chord['intervals'][1:] == begin_chord['intervals'][1:]:
             value_1['children'].append(name_2)
             value_2['parents'].append(name_1)
