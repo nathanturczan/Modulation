@@ -8,7 +8,7 @@ global = {
 
 % designate the title, composer and poet!
   \header {
-    title = \markup { \fontsize #0.4 \bold "Chord Building by Fourths" }
+    title = \markup { \fontsize #0.4 \bold "Chord Building by Fourths 1" }
     subtitle = "by horace Alden Miller"
     composer = "Nathan Turczan"
   }
@@ -17,32 +17,437 @@ global = {
 \language "english"
 %english-qs-qf-tqs-tqf
 
-aa = \relative c {
+aa = \relative c' {
   \global
   \clef treble
   \time 4/4
-  
-       <a'' d g>2^\markup "Ex. 176" <a d g b>    
+  <ef af df>2^\markup "Ex. 202a" <e g c>
+       
 }
-ab = \relative c' {
+ab = \relative c {
 \global
 \clef bass
 \time 4/4
-         <c,, g' e' g c e> <c g' e' g c e>
+         <g f' b> <c e c'>
 }
 
-ba = \relative c {
+ba = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <ef af df>2^\markup "Ex. 202b" <e g c>
+       
+}
+bb = \relative c {
+\global
+\clef bass
+\time 4/4
+         <f b> <e c'>
+}
+
+ca = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+   <ef af df>2^\markup "Ex. 203a" <e g c> 
+}
+cb = \relative c {
+\global
+\clef bass
+\time 4/4
+<g f' bf> <c e c'>
+}
+
+da = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+<e a d~ g~>2^\markup "Ex. 205a" <f b d g>
+}
+db = \relative c {
+\global
+\clef bass
+\time 4/4
+<g b'>~ <g b'>
+}
+
+ea = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <e g c>2^\markup "Ex. 206a" <e a c>
+}
+eb = \relative c {
+\global
+\clef bass
+\time 4/4
+<c b'> <f a>
+}
+
+fa = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <c' e a>2^\markup "Ex. 206b" <c e g>2 <c f a>1
+}
+fb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<c, b'>1 <f a>1
+}
+
+ga = \relative c {
   \global
   \clef treble
   \time 4/4
   
-       g4
 }
-bb = \relative c' {
+gb = \relative c' {
 \global
 \clef bass
 \time 4/4
-         
+}
+
+ha = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+    
+}
+hb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+ia = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+    
+}
+ib = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+ja = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+    
+}
+jb = \relative c {
+\global
+\clef bass
+\time 4/4
+}
+
+ka = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+}
+kb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+la = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+}
+lb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+ma = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+mb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+na = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+nb = \relative c {
+\global
+\clef bass
+\time 4/4
+}
+
+oa = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  
+}
+ob = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+pa = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+}
+pb = \relative c {
+\global
+\clef bass
+\time 4/4
+}
+
+qa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+qb = \relative c {
+\global
+\clef bass
+\time 4/4
+}
+
+ra = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+rb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+sa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+sb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+ta = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+}
+tb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+ua = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+}
+ub = \relative c {
+\global
+\clef bass
+\time 4/4
+}
+
+va = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+vb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+wa = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+}
+wb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+}
+    
+xa = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+}
+xb = \relative c'  {
+  \global
+  \clef bass
+  \time 4/4
+}
+
+ya = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+yb = \relative c'  {
+  \global
+  \clef bass
+  \time 4/4
+}
+
+za = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+}
+zb = \relative c'  {
+  \global
+  \clef bass
+  \time 4/4
+}
+
+
+
+aaa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+aab = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+bba = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+
+}
+bbb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+cca = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+
+}
+ccb = \relative c' {
+\global
+\clef bass
+\time 4/4
+
+}
+
+dda = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+ddb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+eea = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+eeb = \relative c' {
+\global
+\clef bass
+\time 4/4
+
+}
+
+ffa = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+
+}
+ffb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+gga = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+}
+ggb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+hha = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+hhb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+iia = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+}
+iib = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+jja = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+}
+jjb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+kka = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+}
+kkb = \relative c' {
+\global
+\clef bass
+\time 4/4
 }
 
 \book{

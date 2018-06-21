@@ -8,7 +8,7 @@ global = {
 
 % designate the title, composer and poet!
   \header {
-    title = \markup { \fontsize #0.4 \bold "harmonielehre" }
+    title = \markup { \fontsize #0.4 \bold "Harmonielehre: Diatonic Chords (pages 72 - 73)" }
     subtitle = "Schoenberg"
     composer = "Nathan Turczan"
   }
@@ -21,68 +21,29 @@ aa = \relative c {
   \global
   \clef treble
   \time 2/4
-<e' g~ c~>1^\markup {23A1} <c g' c>
+  <e' g~ c~>1^\markup {23A1} <c g' c>
 }
 
 ab = \relative c {
-\global
-\clef bass
-\time 4/4
-c1 e
+  \global
+  \clef bass
+  \time 4/4
+  c1 e
 }
 
 ba = \relative c {
   \global
   \clef treble
   \time 2/4
-<e' g~ c>1^\markup {23A2} <c g' g'>
+  <e' g~ c>1^\markup {23A2} <c g' g'>
 
 }
 
 bb = \relative c {
-\global
-\clef bass
-\time 4/4
-c1 e
-
-}
-
-
-ca = \relative c {
   \global
-  \clef treble
+  \clef bass
   \time 4/4
-   
-}
-cb = \relative c' {
-\global
-\clef bass
-\time 4/4
-
-}
-
-da = \relative c'' {
-  \global
-  \clef treble
-  \time 4/4
-
-}
-db = \relative c' {
-\global
-\clef bass
-\time 4/4
-
-}
-
-ea = \relative c' {
-  \global
-  \clef treble
-  \time 4/4
-}
-eb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  c1 e1
 
 }
 
@@ -90,366 +51,699 @@ fa = \relative c' {
   \global
   \clef treble
   \time 4/4
-}
-fb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  <e~ g b>1^\markup {23A3} <e e b'>1
 }
 
-ga = \relative c {
+fb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  c1 g1
+}
+
+ga = \relative c' {
   \global
   \clef treble
   \time 4/4
-}
-gb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  <e~ g c>1^\markup {23A4} <e b' e>1
 }
 
-ha = \relative c {
+gb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  c1 g'1
+}
+
+ca = \relative c' {
   \global
   \clef treble
   \time 4/4
-    
+   <e c'>1^\markup {23A5} <e b'>1
 }
-hb = \relative c' {
-\global
-\clef bass
-\time 4/4
+cb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <c g'>1 <g b'>1
 }
 
-ia = \relative c {
+da = \relative c' {
   \global
   \clef treble
   \time 4/4
-    
+<e c'~>1^\markup {23A6} <f c'>1
 }
-ib = \relative c' {
-\global
-\clef bass
-\time 4/4
+db = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <c g'>1 <a f'>1
+}
+
+ea = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <e c'~>1^\markup {23A7} <f c'>1
+  
+}
+
+eb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <c g'>1 <a c'>1
+}
+
+ha = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <e c'>1^\markup {23A8a} <g d'>1
+}
+
+hb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <c g'~>1 <b g'>1 
+}
+
+ia = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+    <e c'>1^\markup {23A8b} <d g>1
+}
+ib = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <c g'~>1 <b g'>1 
 }
 
 ja = \relative c' {
   \global
   \clef treble
   \time 4/4
-    
+    <e~ c'~>1^\markup {23A9} <e c'>
 }
 jb = \relative c {
-\global
-\clef bass
-\time 4/4
+  \global
+  \clef bass
+  \time 4/4
+  <c g'>1 <c a'>
 }
 
-ka = \relative c {
+ka = \relative c' {
   \global
   \clef treble
   \time 4/4
-}
-kb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  <e~ c'>1^\markup {23A10} <e a>
 }
 
-la = \relative c {
+kb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <c g'>1 <c a'>
+}
+
+la = \relative c' {
   \global
   \clef treble
   \time 4/4
+  <g' c>1^\markup {23B1a}~ <g c>
 }
-lb = \relative c' {
-\global
-\clef bass
-\time 4/4
+
+lb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+<e c'>1 <c e'>
 }
 
 ma = \relative c' {
   \global
   \clef treble
   \time 4/4
+  <g' c>1^\markup {23B1b}~ <g e'>
 }
-mb = \relative c' {
-\global
-\clef bass
-\time 4/4
+
+mb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+<e c'~>1 <c c'>
 }
 
 na = \relative c' {
   \global
   \clef treble
   \time 4/4
+  <g'~ g'>1^\markup {23B2a} <g e'>
 }
 nb = \relative c {
-\global
-\clef bass
-\time 4/4
+  \global
+  \clef bass
+  \time 4/4
+  <e c'>1 <c c'>
 }
 
-oa = \relative c {
+oa = \relative c'' {
   \global
   \clef treble
   \time 4/4
-  
+  <g~ g'>1^\markup {23B2b} <g c>
 }
-ob = \relative c' {
-\global
-\clef bass
-\time 4/4
+ob = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e c'>1 <c e'>
 }
 
-pa = \relative c {
+pa = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  <g~ c>1^\markup {23B3a} <g e'>1
 }
 pb = \relative c {
-\global
-\clef bass
-\time 4/4
+  \global
+  \clef bass
+  \time 4/4
+  <e c'>1 <e b'>1
 }
 
-qa = \relative c' {
+qa = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  <g~ c>1^\markup {23B3b} <g b>
 }
+
 qb = \relative c {
-\global
-\clef bass
-\time 4/4
+  \global
+  \clef bass
+  \time 4/4
+  <e c'>1 <e e'>1
 }
 
 ra = \relative c' {
   \global
   \clef treble
   \time 4/4
+  <g'~ c>1^\markup {23B4} <g b>1
 }
+
 rb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  \global
+  \clef bass
+  \time 4/4
+  <e, g>1~ <e g>
 }
 
-sa = \relative c' {
+sa = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  <g~ c>1^\markup {23B5a} <g e'>
 }
-sb = \relative c' {
-\global
-\clef bass
-\time 4/4
+sb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e~ g>1 <e b'>
 }
 
-ta = \relative c {
+ta = \relative c' {
   \global
   \clef treble
   \time 4/4
+  <g' c>1^\markup {23B5b} <e b'>
 }
-tb = \relative c' {
-\global
-\clef bass
-\time 4/4
+tb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e g>1~ <e g>
 }
 
-ua = \relative c {
+ua = \relative c'' {
   \global
   \clef treble
   \time 4/4
-}
-ub = \relative c {
-\global
-\clef bass
-\time 4/4
+  <g c>1^\markup {23B6a} <a c>
 }
 
-va = \relative c' {
+ub = \relative c' {
+  \global
+  \clef bass
+  \time 4/4
+  <e, c'>1 <f c'>
+}
+
+va = \relative c'' {
   \global
   \clef treble
   \time 4/4
-}
-vb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  <g c>1^\markup {23B6b} <f a>
 }
 
-wa = \relative c {
+vb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e c'>1 <f c'>
+}
+
+wa = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  <g c~>1^\markup {23B7} <f c'>
 }
+
 wb = \relative c {
   \global
   \clef bass
   \time 4/4
+  <e g>1 <f a>
 }
     
 xa = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  <g~ c>1^\markup {23B8} <g b>
 }
-xb = \relative c'  {
+xb = \relative c  {
   \global
   \clef bass
   \time 4/4
+  <e c'>1  <g d'>
 }
 
-ya = \relative c' {
+ya = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  <g~ c>1^\markup {23B9} <g d'>
 }
-yb = \relative c'  {
+yb = \relative c  {
   \global
   \clef bass
   \time 4/4
+  <e g>1 <g b>
 }
 
 za = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  <g c~>1^\markup {23B10a} <a c>
 }
-zb = \relative c'  {
+zb = \relative c  {
   \global
   \clef bass
   \time 4/4
+  <e c'>1 <a, e''>
 }
 
-
-
-aaa = \relative c' {
+aaa = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  <g c~>1^\markup {23B10b} <a c>
 }
-aab = \relative c' {
-\global
-\clef bass
-\time 4/4
+aab = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e c'>1 <a e'>
 }
 
-bba = \relative c' {
+bba = \relative c'' {
   \global
   \clef treble
   \time 4/4
-
+  <g c~>1^\markup {23B11} <e c'>
 }
-bbb = \relative c' {
-\global
-\clef bass
-\time 4/4
+bbb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e g>1 <a, a'>
 }
 
-cca = \relative c' {
+cca = \relative c'' {
   \global
   \clef treble
   \time 4/4
-
+  <g c>1^\markup {23C1a} <e b'>
 }
-ccb = \relative c' {
-\global
-\clef bass
-\time 4/4
-
+ccb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e c'>1 <g e'>1
 }
 
-dda = \relative c' {
+dda = \relative c'' {
   \global
   \clef treble
   \time 4/4
-}
-ddb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  <g c>1^\markup {23C1b} <b e>
 }
 
-eea = \relative c' {
+ddb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e c'> <g b>
+}
+
+eea = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  <g c>1^\markup {23C1c} <e e'>
 }
-eeb = \relative c' {
-\global
-\clef bass
-\time 4/4
-
+eeb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e c'> <g b>
 }
 
-ffa = \relative c {
+ffa = \relative c'' {
   \global
   \clef treble
   \time 4/4
-
+  <g g'>1^\markup {23C2} <b e>
 }
 ffb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  \global
+  \clef bass
+  \time 4/4
+  <e, c'>1 <g b>
 }
 
-gga = \relative c {
+gga = \relative c'' {
   \global
   \clef treble
   \time 4/4
-}
-ggb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  <g c~>1^\markup {23C3} <f c'>
 }
 
-hha = \relative c' {
+ggb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e c'~>1 <a c> 
+}
+
+hha = \relative c'' {
   \global
   \clef treble
   \time 4/4
-}
-hhb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  <c~ g'>1^\markup {23C4} <c f>
 }
 
-iia = \relative c'' {
+hhb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e g'>1 <a c>1
+}
+
+iia = \relative c' {
   \global
   \clef treble
   \time 4/4
-}
-iib = \relative c' {
-\global
-\clef bass
-\time 4/4
+  <c g'~>1^\markup {23C5a} <g' g>
 }
 
-jja = \relative c {
+iib = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e c'>1 <b d'>
+}
+
+jja = \relative c' {
   \global
   \clef treble
   \time 4/4
-}
-jjb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  <c g'~>1^\markup {23C5b} <d g>
 }
 
-kka = \relative c' {
+jjb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e c'>1 <b g'>
+}
+
+kka = \relative c'' {
   \global
   \clef treble
   \time 4/4
-}
-kkb = \relative c' {
-\global
-\clef bass
-\time 4/4
+  <g~ c>1^\markup {23C6a} <g d'>
 }
 
+kkb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e g'~> <b g''>
+}
 
+lla = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+  <g~ c>1^\markup {23C6b} <g d'>
+}
+
+llb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e g'>1 <b d'>
+}
+
+mma = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+  <g g'>1^\markup {23C7} <a e'>1
+}
+
+mmb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e c'>1 <c e'>1
+}
+
+nna = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <g' c>1^\markup {23C8} <e a>
+}
+
+nnb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e g>1 <c a'>
+}
+
+ooa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f d'>1^\markup {24a} <e e'>
+}
+
+oob = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <b b'~>1 <g b'>
+}
+
+ppa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f b>1^\markup {24b} <e g>
+}
+
+ppb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <d b'~> <e b'>
+}
+
+qqa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f b~>1^\markup {24c} <e b'>
+}
+
+qqb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <d b'~> <g b>
+}
+
+rra = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+  <a d>1^\markup {24d1} <f d'>1
+}
+
+rrb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <f d'~> <b, d'>
+}
+
+ssa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f d'>1^\markup {24d2}~ <f d'>
+}
+
+ssb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <f a>1 <b, b'>
+}
+
+tta = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+  <a d>1^\markup {24e} <b b>
+}
+
+ttb = \relative c' {
+  \global
+  \clef bass
+  \time 4/4
+  <d, f'>1~ <d f'>
+}
+
+uua = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f~ d'>1^\markup {24f} <f b>
+}
+
+uub = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <f a>1 <d b'>
+}
+
+vva = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f~ c'>1^\markup {24g} <f b>
+}
+
+vvb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <a' c>1 <b d>
+}
+
+wwa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f~ c'>1^\markup {24h} <f b>
+}
+
+wwb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <f a>1 <d b'>
+}
+
+xxa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f~ c'>1^\markup {24i} <f b>
+}
+
+xxb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <a' c>1 <d, d'>
+}
+
+yya = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f~ a>1^\markup {24k} <f b>
+}
+
+yyb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <a c'>1 <d b'>
+}
+
+zza = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f~ c'>1^\markup {24l} <f d'>
+}
+
+zzb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <a' f'>1 <d, b'>
+}
+
+aaaa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <f~ c'>1^\markup {24m} <f b>
+}
+
+aaab = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <a f''>1 <d d'>
+}
 
 \book{
   
@@ -481,6 +775,37 @@ kkb = \relative c' {
     \tempo 4 = 90
   }
 }
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "fa" \fa
+      \new Staff = "fb" \fb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "ga" \ga
+      \new Staff = "gb" \gb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
 \score {
   <<
     \new PianoStaff <<
@@ -523,34 +848,7 @@ kkb = \relative c' {
     \tempo 4 = 90
   }
 }
-\score {
-  <<
-    \new PianoStaff <<
-      \new Staff = "fa" \fa
-      \new Staff = "fb" \fb
-    >>
-  >>
-  \layout {
-    \context { \Staff \RemoveEmptyStaves  }
-  }
-  \midi { 
-    \tempo 4 = 90
-  }
-}
-\score {
-  <<
-    \new PianoStaff <<
-      \new Staff = "ga" \ga
-      \new Staff = "gb" \gb
-    >>
-  >>
-  \layout {
-    \context { \Staff \RemoveEmptyStaves  }
-  }
-  \midi { 
-    \tempo 4 = 90
-  }
-}
+
 \score {
   <<
     \new PianoStaff <<
@@ -962,6 +1260,233 @@ kkb = \relative c' {
     \new PianoStaff <<
       \new Staff = "kka" \kka
       \new Staff = "kkb" \kkb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "lla" \lla
+      \new Staff = "llb" \llb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "mma" \mma
+      \new Staff = "mmb" \mmb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "nna" \nna
+      \new Staff = "nnb" \nnb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "ooa" \ooa
+      \new Staff = "oob" \oob
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "ppa" \ppa
+      \new Staff = "ppb" \ppb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "qqa" \qqa
+      \new Staff = "qqb" \qqb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "rra" \rra
+      \new Staff = "rrb" \rrb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "ssa" \ssa
+      \new Staff = "ssb" \ssb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "tta" \tta
+      \new Staff = "ttb" \ttb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "uua" \uua
+      \new Staff = "uub" \uub
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "vva" \vva
+      \new Staff = "vvb" \vvb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "wwa" \wwa
+      \new Staff = "wwb" \wwb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "xxa" \xxa
+      \new Staff = "xxb" \xxb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "yya" \yya
+      \new Staff = "yyb" \yyb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "zza" \zza
+      \new Staff = "zzb" \zzb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "aaaa" \aaaa
+      \new Staff = "aaab" \aaab
     >>
   >>
   \layout {
