@@ -8,15 +8,9 @@ import pickle
 import graphviz
 from music21 import *
 
-# key for alpha-numeric sorting
-re_file = re.compile(r'(\d+)([a-z]*)\.mid$')
 
-#fun for alpha-numeric sorting
-def midi_file_sort_key(item):
-    match = re.match(re_file, item)
-    if not match:
-        raise Exception("this is the wrong file type")
-    return (int(match.group(1)), match.group(2))
+
+
 
 #fun for get bass / tenor / alto / soprano midi note numbers
 #fun for find the differences between the notes, these are the intervals
@@ -29,13 +23,10 @@ def build_intervals(chord):
     intervals = tuple(np.diff(sorted(midi)))
     return locals()
 
-#grab items in file list ending with .mid
-filelist = [f for f in os.listdir() if f.endswith ('.mid')]
+#grab items in file list ending with .midi
+filelist = [f for f in os.listdir() if f.endswith ('.midi')]
 # items in file list have integers(group1), then letters(group2): commented out below
 #filelist = [f for f in os.listdir() if re.match(re_file, f)]
-
-#sort it out according to alphanumeric key
-filelist.sort(key=midi_file_sort_key)
 
 # this will cache the pickle file, first check if it exists
 if os.path.exists('analysis.pkl'):
@@ -75,7 +66,7 @@ for name_1, value_1 in arr_dict.items():
         begin_chord = value_2['first_chord']
         end_chord = value_1['last_chord']
         #the tenor:alto interval AND the alto:soprano interval must match up.
-        if end_chord['intervals'][1:] == begin_chord['intervals'][1:]:
+        if end_chord['intervals'][0:] == begin_chord['intervals'][0:]:
             value_1['children'].append(name_2)
             value_2['parents'].append(name_1)
 
@@ -119,7 +110,7 @@ for name, node in arr_dict.items():
 
 
 # start with any .mid (name). range is how many progressions to do. 
-name = '181.mid'
+name = 'Hindemith-22.midi'
 #transposer counter begins at 0 but accumulates
 transposer = 0
 #create empty list called paper
@@ -140,7 +131,7 @@ for i in range(100):
     c = c.measures(0, 1)
     
     # move fundamental to 72
-    normalizer = 72 - arr_dict[name]['first_chord']['bass']
+    normalizer = 48 - arr_dict[name]['first_chord']['bass']
 
     # transpose the soprano notes
     end_soprano = arr_dict[name]['last_chord']['soprano'] + transposer 
