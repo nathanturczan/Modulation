@@ -634,6 +634,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -648,6 +652,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -662,6 +670,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -676,6 +688,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -690,6 +706,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -704,6 +724,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -718,6 +742,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -732,6 +760,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -746,6 +778,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -760,6 +796,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -774,6 +814,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -788,6 +832,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -802,6 +850,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -816,6 +868,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -830,6 +886,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -844,6 +904,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -858,6 +922,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -872,6 +940,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -886,6 +958,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -900,6 +976,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -914,6 +994,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -928,6 +1012,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -942,6 +1030,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -956,6 +1048,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -970,6 +1066,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -984,6 +1084,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -998,6 +1102,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1012,6 +1120,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1026,6 +1138,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1040,6 +1156,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1054,6 +1174,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1068,6 +1192,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1082,6 +1210,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1096,6 +1228,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1110,6 +1246,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1124,6 +1264,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1138,6 +1282,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 
@@ -1153,6 +1301,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1167,6 +1319,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1181,6 +1337,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1195,6 +1355,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1209,6 +1373,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1223,6 +1391,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1237,6 +1409,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1251,6 +1427,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1265,6 +1445,10 @@ ttb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 

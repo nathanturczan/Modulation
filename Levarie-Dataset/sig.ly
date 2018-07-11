@@ -22,7 +22,7 @@ first = \relative c'' {
   \global
   \clef treble
   \time 4/4
-  \tuplet 5/4 {<e, c'~>8 <g~ c> <g cs> <fs fs'> <a ds> <gs e'> <a~ ds> <a ef'~> <g ef'> <f d'>}
+  \tuplet 5/4 {<e, c'~>8^\markup "213" <g~ c> <g cs> <fs fs'> <a ds> <gs e'> <a~ ds> <a ef'~> <g ef'> <f d'>}
   <e c'>1
 }
 last = \relative c' {
@@ -55,6 +55,40 @@ ab = \relative c' {
 \clef bass
 \time 4/4
 <c, c'>2 <g' d'>2 <fs cs'>1
+}
+
+two_ten_treb = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+       ef''16^\markup "210" f ef ff32 e32 ds16 cs b a bf c df eff32 d32 ef8. d16 ef1
+       }
+     
+     \new Voice  {
+       \voiceTwo
+       g,16 af8 g16 fs g8 fs32 gf32  f16 gf8 f16 g ef g f ef1
+     }
+     >>
+}
+
+two_ten_bass = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <<
+     {
+       \voiceOne
+       bf'16 cf32 b32 c16 df32 cs32 ds16 e8 ds32 ef32 d16 ef df cf bf c bf af g1
+       }
+     
+     \new Voice  {
+       \voiceTwo
+       ef16 d c bf32 as32 b16 as b c d a bf af g af bf8 ef1
+     }
+     >>
 }
 
 ba = \relative c'' {
@@ -600,7 +634,7 @@ jja = \relative c {
   \global
   \clef treble
   \time 4/4
-\tuplet 6/4 { <e' g>4^\markup "172" <f~ bf> <f c'> <g cs> <fs d~> <g d'>} <e c'>1
+  \tuplet 6/4 { <e' g>4^\markup "172" <f~ bf> <f c'> <g cs> <fs d'~> <g d'> } <e c'>1
 }
 jjb = \relative c' {
 \global
@@ -644,6 +678,20 @@ kkb = \relative c' {
     \new PianoStaff <<
       \new Staff = "aa" \aa
       \new Staff = "ab" \ab
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "two_ten_treb" \two_ten_treb
+      \new Staff = "two_ten_bass" \two_ten_bass
     >>
   >>
   \layout {

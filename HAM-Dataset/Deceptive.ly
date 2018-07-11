@@ -105,7 +105,7 @@ ga = \relative c' {
   \clef treble
   \time 4/4
   
-  \tuplet 6/4 { <a' d>2^\markup {111b} <af~ df>4 <af~ ff'> <af f'> <f d'> } <e c>1
+  \tuplet 6/4 { <a' d>2^\markup {111b} <af~ df>4 <af~ ff'> <af f'> <f d'> } <e c'>1
 }
 gb = \relative c {
   \global

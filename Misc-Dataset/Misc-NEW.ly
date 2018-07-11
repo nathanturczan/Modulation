@@ -9,7 +9,6 @@ global = {
 % designate the title, composer and poet!
   \header {
     title = \markup { \fontsize #0.4 \bold "miscellaneous chord changes" }
-    subtitle = ""
     composer = "Nathan Turczan"
   }
 
@@ -934,7 +933,7 @@ ffa = \relative c' {
   \global
   \clef treble
   \time 4/4
-  b8 df ef f
+  b8^\markup {Bartok} df ef f
   \tuplet 3/2 { fs4 e cs8 b} cs1
 }
 ffb = \relative c {
@@ -1165,7 +1164,7 @@ wwa = \relative c' {
   \global
   \clef treble
   \time 4/4
-  \tuplet 3/2 { <c' e>2^\markup {HAM 67} <ef as>2 <d g>2 } <c g'>1
+  \tuplet 3/2 { <c' e>2^\markup {HAM 67} <ef as>2 <d g~>2 } <c g'>1
 }
 wwb = \relative c'' {
   \global
@@ -1323,7 +1322,7 @@ dddb = \relative c {
   <f a>1 <e b'>1
 }
 
-eeea = \relative c' {
+eeea = \relative c'' {
   \global
   \clef treble
   \time 4/4
@@ -1362,58 +1361,265 @@ gggb = \relative c'' {
   <b, d>1 <a e'>1
 }
 
-hhha = \relative c' {
+hhha = \relative c'' {
   \global
   \clef treble
   \time 4/4
-  
+  <af fs'>1^\markup "Penderecki augmented 6ths" <g g'>1
 }
 hhhb = \relative c {
   \global
   \clef bass
   \time 4/4
-  
+  <f ds'>1 <e e'>1
 }
 
 iiia = \relative c' {
   \global
   \clef treble
   \time 4/4
-  
+  <fs a d>1^\markup "mussorgsky" <gf af ef'>1
 }
 iiib = \relative c {
   \global
   \clef bass
   \time 4/4
-  
+  c1~ c1
 }
 
-jjja = \relative c' {
+jjja = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  \key bf \major
+  
+  << { \voiceOne 
+       
+       \tuplet 3/2 {a4^\markup "Liszt Venezia" bf a} bf4 a4 
+       a1
+       }
+       \new Voice  
+       { \voiceTwo
+       f2. e4
+       f1
+       
+       } >>
   
 }
 jjjb = \relative c {
   \global
   \clef bass
   \time 4/4
-  
+  \key bf \major
+  cs2 d4 cs4~
+  cs1
 }
 
 kkka = \relative c' {
   \global
   \clef treble
   \time 4/4
-  
+  <ef~ a>2^\markup "Alfie" <ef d'>2 <e fs b>1
 }
 kkkb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <c fs>1
+  a1
+}
+
+llla = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  \tuplet 3/2 { <c e~ a~>2^\markup "Alfie" <b~ e a~>2 <b~ ds a'>2 } <b e g>1
+}
+lllb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  f1 c1
+}
+
+mmma = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <e cs'>2^\markup "Liszt Kyrie" <f~ c'>2 <f d'>1
+}
+mmmb = \relative c' {
+  \global
+  \clef bass
+  \time 4/4
+  a1 bf1
+}
+
+nnna = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <e cs'~>2^\markup "Liszt Kyrie" <f~ cs'>2 <f d'>1
+}
+nnnb = \relative c' {
+  \global
+  \clef bass
+  \time 4/4
+  a1 bf1
+}
+
+oooa = \relative c' {
+  \global
+  \clef treble
+  \key df \major
+  \time 4/4
+  <df bff'>2^\markup "Liszt Sanctus" <c af'>2 <df af'>1
+}
+ooob = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  \key df \major
+  ff2 ef2 f1
+}
+
+pppa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  \key df \major
+  \tuplet 3/2 { <df bff'~>2^\markup "Liszt Sanctus" <c~ bff'>2 <c af'>2 } <df af'>1
+}
+pppb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  \key df \major
+  \tuplet 3/2 { ff1 ef2 } f1
+}
+
+qqqa = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+  <g~ c>4 <g b>4 <f a>4 <e g>4~ <e g>1
+}
+qqqb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <e e'>2 <f c'>4 <g b>4 <c, c'>1
+}
+
+rrra = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  
+}
+rrrb = \relative c {
   \global
   \clef bass
   \time 4/4
   
 }
 
+sssa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  
+}
+sssb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  
+}
+ttta = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  
+}
+tttb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  
+}
+uuua = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  
+}
+uuub = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  
+}
+vvva = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  
+}
+vvvb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  
+}
+wwwa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  
+}
+wwwb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  
+}
+xxxa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  
+}
+xxxb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  
+}
+yyya = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  
+}
+yyyb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  
+}
+zzza = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  
+}
+zzzb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  
+}
 \book{
   
 \score {
@@ -1428,6 +1634,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1442,6 +1652,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1456,6 +1670,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1470,6 +1688,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1484,6 +1706,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1498,6 +1724,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1512,6 +1742,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1526,6 +1760,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1540,6 +1778,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1554,6 +1796,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1568,6 +1814,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1582,6 +1832,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1596,6 +1850,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1610,6 +1868,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1624,6 +1886,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1638,6 +1904,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1652,6 +1922,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1666,6 +1940,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1680,6 +1958,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1694,6 +1976,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1708,6 +1994,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1722,6 +2012,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1736,6 +2030,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1750,6 +2048,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1764,6 +2066,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1778,6 +2084,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1792,6 +2102,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1806,6 +2120,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1820,6 +2138,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1834,6 +2156,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1848,6 +2174,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1862,6 +2192,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1876,6 +2210,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1890,6 +2228,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1904,6 +2246,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1918,6 +2264,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1932,6 +2282,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 
@@ -1947,6 +2301,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1961,6 +2319,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1975,6 +2337,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -1989,6 +2355,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2003,6 +2373,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2017,6 +2391,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2031,6 +2409,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2045,6 +2427,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2059,6 +2445,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2073,6 +2463,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2087,6 +2481,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2101,6 +2499,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2115,6 +2517,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2129,6 +2535,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2143,6 +2553,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2157,6 +2571,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2171,6 +2589,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2185,6 +2607,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2199,6 +2625,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2213,6 +2643,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2227,6 +2661,10 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 \score {
@@ -2241,8 +2679,200 @@ kkkb = \relative c {
   }
   \midi { 
     \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
   }
 }
 
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "hhha" \hhha
+      \new Staff = "hhhb" \hhhb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "iiia" \iiia
+      \new Staff = "iiib" \iiib
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "jjja" \jjja
+      \new Staff = "jjjb" \jjjb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "kkka" \kkka
+      \new Staff = "kkkb" \kkkb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "llla" \llla
+      \new Staff = "lllb" \lllb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "mmma" \mmma
+      \new Staff = "mmmb" \mmmb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "nnna" \nnna
+      \new Staff = "nnnb" \nnnb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "oooa" \oooa
+      \new Staff = "ooob" \ooob
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "pppa" \pppa
+      \new Staff = "pppb" \pppb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "qqqa" \qqqa
+      \new Staff = "qqqb" \qqqb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+    \context {
+      \Score
+      midiChannelMapping = #'instrument
+    }
+  }
+}
 
 }
