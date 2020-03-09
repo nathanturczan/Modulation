@@ -20,729 +20,943 @@ global = {
 aa = \relative c {
   \global
   \clef treble
-  \time 2/4
-  <e' g~ c~>1^\markup {23A1} <c g' c>
+  \time 1/4
+  <e' g~ c~>4^\markup {23A1} 
+  \time 4/4
+  <c g' c>1
 }
 
 ab = \relative c {
   \global
   \clef bass
+  \time 1/4
+  c4
   \time 4/4
-  c1 e
+  e1
 }
 
 ba = \relative c {
   \global
   \clef treble
-  \time 2/4
-  <e' g~ c>1^\markup {23A2} <c g' g'>
+  \time 1/4
+  <e' g~ c>4^\markup {23A2} 
+  \time 4/4
+  <c g' g'>1
 
 }
 
 bb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  c4
   \time 4/4
-  c1 e1
+  e1
 
 }
 
 fa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <e~ g b>4^\markup {23A3}
   \time 4/4
-  <e~ g b>1^\markup {23A3} <e e b'>1
+  <e e b'>1
 }
 
 fb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  c4
   \time 4/4
-  c1 g1
+  g1
 }
 
 ga = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <e~ g c>4^\markup {23A4} 
   \time 4/4
-  <e~ g c>1^\markup {23A4} <e b' e>1
+  <e b' e>1
 }
 
 gb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  c4
   \time 4/4
-  c1 g'1
+  g'1
 }
 
 ca = \relative c' {
   \global
   \clef treble
+  \time 1/4
+   <e c'>4^\markup {23A5}
   \time 4/4
-   <e c'>1^\markup {23A5} <e b'>1
+   <e b'>1
 }
 cb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <c g'>4
   \time 4/4
-  <c g'>1 <g b'>1
+  <g b'>1
 }
 
 da = \relative c' {
   \global
   \clef treble
+  \time 1/4
+<e c'~>4^\markup {23A6}
   \time 4/4
-<e c'~>1^\markup {23A6} <f c'>1
+<f c'>1
 }
 db = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <c g'>4
   \time 4/4
-  <c g'>1 <a f'>1
+  <a f'>1
 }
 
 ea = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <e c'~>4^\markup {23A7}
   \time 4/4
-  <e c'~>1^\markup {23A7} <f c'>1
+  <f c'>1
   
 }
 
 eb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <c g'>4
   \time 4/4
-  <c g'>1 <a c'>1
+  <a c'>1
 }
 
 ha = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <e c'>4^\markup {23A8a}
   \time 4/4
-  <e c'>1^\markup {23A8a} <g d'>1
+  <g d'>1
 }
 
 hb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <c g'~>4
   \time 4/4
-  <c g'~>1 <b g'>1 
+  <b g'>1 
 }
 
 ia = \relative c' {
   \global
   \clef treble
+  \time 1/4
+    <e c'>4^\markup {23A8b}
   \time 4/4
-    <e c'>1^\markup {23A8b} <d g>1
+    <d g>1
 }
 ib = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <c g'~>4
   \time 4/4
-  <c g'~>1 <b g'>1 
+  <b g'>1 
 }
 
 ja = \relative c' {
   \global
   \clef treble
+  \time 1/4
+    <e~ c'~>4^\markup {23A9}
   \time 4/4
-    <e~ c'~>1^\markup {23A9} <e c'>
+    <e c'>1
 }
 jb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <c g'>4
   \time 4/4
-  <c g'>1 <c a'>
+  <c a'>1
 }
 
 ka = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <e~ c'>4^\markup {23A10}
   \time 4/4
-  <e~ c'>1^\markup {23A10} <e a>
+  <e a>1
 }
 
 kb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <c g'>4
   \time 4/4
-  <c g'>1 <c a'>
+  <c a'>1
 }
 
 la = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <g' c>4^\markup {23B1a}~ 
   \time 4/4
-  <g' c>1^\markup {23B1a}~ <g c>
+  <g c>1
 }
 
 lb = \relative c {
   \global
   \clef bass
+  \time 1/4
+<e c'>4
   \time 4/4
-<e c'>1 <c e'>
+<c e'>1
 }
 
 ma = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <g' c>4^\markup {23B1b}~ 
+
   \time 4/4
-  <g' c>1^\markup {23B1b}~ <g e'>
+  <g e'>1
 }
 
 mb = \relative c {
   \global
   \clef bass
+  \time 1/4
+<e c'~>4
   \time 4/4
-<e c'~>1 <c c'>
+<c c'>1
 }
 
 na = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <g'~ g'>4^\markup {23B2a}
   \time 4/4
-  <g'~ g'>1^\markup {23B2a} <g e'>
+  <g e'>1
 }
 nb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <c c'>
+  <c c'>1
 }
 
 oa = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g~ g'>4^\markup {23B2b}
   \time 4/4
-  <g~ g'>1^\markup {23B2b} <g c>
+  <g c>1
 }
 ob = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <c e'>
+  <c e'>1
 }
 
 pa = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g~ c>4^\markup {23B3a}
   \time 4/4
-  <g~ c>1^\markup {23B3a} <g e'>1
+  <g e'>1
 }
 pb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <e b'>1
+  <e b'>1
 }
 
 qa = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g~ c>4^\markup {23B3b}
   \time 4/4
-  <g~ c>1^\markup {23B3b} <g b>
+  <g b>1
 }
 
 qb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <e e'>1
+  <e e'>1
 }
 
 ra = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <g'~ c>4^\markup {23B4} 
   \time 4/4
-  <g'~ c>1^\markup {23B4} <g b>1
+  <g b>1
 }
 
 rb = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  <e, g>4~ 
   \time 4/4
-  <e, g>1~ <e g>
+  <e g>1
 }
 
 sa = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g~ c>4^\markup {23B5a} 
   \time 4/4
-  <g~ c>1^\markup {23B5a} <g e'>
+  <g e'>1
 }
 sb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e~ g>4
   \time 4/4
-  <e~ g>1 <e b'>
+  <e b'>1
 }
 
 ta = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <g' c>4^\markup {23B5b} 
   \time 4/4
-  <g' c>1^\markup {23B5b} <e b'>
+  <e b'>1
 }
 tb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e g>4~ 
   \time 4/4
-  <e g>1~ <e g>
+  <e g>1
 }
 
 ua = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g c>4^\markup {23B6a} 
+
   \time 4/4
-  <g c>1^\markup {23B6a} <a c>
+  <a c>1
 }
 
 ub = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  <e, c'>4
   \time 4/4
-  <e, c'>1 <f c'>
+  <f c'>1
 }
 
 va = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g c>4^\markup {23B6b}
   \time 4/4
-  <g c>1^\markup {23B6b} <f a>
+  <f a>1
 }
 
 vb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <f c'>
+  <f c'>1
 }
 
 wa = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g c~>4^\markup {23B7}
   \time 4/4
-  <g c~>1^\markup {23B7} <f c'>
+  <f c'>1
 }
 
 wb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e g>4
   \time 4/4
-  <e g>1 <f a>
+  <f a>1
 }
     
 xa = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g~ c>4^\markup {23B8}
   \time 4/4
-  <g~ c>1^\markup {23B8} <g b>
+  <g b>1
 }
 xb = \relative c  {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1  <g d'>
+  <g d'>1
 }
 
 ya = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g~ c>4^\markup {23B9}
   \time 4/4
-  <g~ c>1^\markup {23B9} <g d'>
+  <g d'>1
 }
 yb = \relative c  {
   \global
   \clef bass
+  \time 1/4
+  <e g>4
   \time 4/4
-  <e g>1 <g b>
+  <g b>1
 }
 
 za = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g c~>4^\markup {23B10a}
   \time 4/4
-  <g c~>1^\markup {23B10a} <a c>
+  <a c>1
 }
 zb = \relative c  {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <a, e''>
+  <a, e''>1
 }
 
 aaa = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g c~>4^\markup {23B10b}
   \time 4/4
-  <g c~>1^\markup {23B10b} <a c>
+  <a c>1
 }
 aab = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <a e'>
+  <a e'>1
 }
 
 bba = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g c~>4^\markup {23B11}
   \time 4/4
-  <g c~>1^\markup {23B11} <e c'>
+  <e c'>1
 }
 bbb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e g>4
   \time 4/4
-  <e g>1 <a, a'>
+  <a, a'>1
 }
 
 cca = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g c>4^\markup {23C1a}
   \time 4/4
-  <g c>1^\markup {23C1a} <e b'>
+  <e b'>1
 }
 ccb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <g e'>1
+  <g e'>1
 }
 
 dda = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g c>4^\markup {23C1b}
   \time 4/4
-  <g c>1^\markup {23C1b} <b e>
+  <b e>1
 }
 
 ddb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'> <g b>
+  <g b>1
 }
 
 eea = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g c>4^\markup {23C1c} 
   \time 4/4
-  <g c>1^\markup {23C1c} <e e'>
+  <e e'>1
 }
 eeb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'> <g b>
+  <g b>1
 }
 
 ffa = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g g'>4^\markup {23C2} 
   \time 4/4
-  <g g'>1^\markup {23C2} <b e>
+  <b e>1
 }
 ffb = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  <e, c'>4
   \time 4/4
-  <e, c'>1 <g b>
+  <g b>1
 }
 
 gga = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g c~>4^\markup {23C3} 
   \time 4/4
-  <g c~>1^\markup {23C3} <f c'>
+  <f c'>1
 }
 
 ggb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'~>4
   \time 4/4
-  <e c'~>1 <a c> 
+  <a c>1
 }
 
 hha = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <c~ g'>4^\markup {23C4}
   \time 4/4
-  <c~ g'>1^\markup {23C4} <c f>
+  <c f>1
 }
 
 hhb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e g'>4
   \time 4/4
-  <e g'>1 <a c>1
+  <a c>1
 }
 
 iia = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <c g'~>4^\markup {23C5a} 
   \time 4/4
-  <c g'~>1^\markup {23C5a} <g' g>
+  <g' g>1
 }
 
 iib = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <b d'>
+  <b d'>1
 }
 
 jja = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <c g'~>4^\markup {23C5b} 
   \time 4/4
-  <c g'~>1^\markup {23C5b} <d g>
+  <d g>1
 }
 
 jjb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <b g'>
+  <b g'>1
 }
 
 kka = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g~ c>4^\markup {23C6a} 
   \time 4/4
-  <g~ c>1^\markup {23C6a} <g d'>
+  <g d'>1
 }
 
 kkb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e g'~>4
   \time 4/4
-  <e g'~> <b g''>
+   <b g''>1
 }
 
 lla = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g~ c>4^\markup {23C6b} 
   \time 4/4
-  <g~ c>1^\markup {23C6b} <g d'>
+  <g d'>1
 }
 
 llb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e g'>4
   \time 4/4
-  <e g'>1 <b d'>
+  <b d'>1
 }
 
 mma = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g g'>4^\markup {23C7} 
   \time 4/4
-  <g g'>1^\markup {23C7} <a e'>1
+  <a e'>1
 }
 
 mmb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e c'>4
   \time 4/4
-  <e c'>1 <c e'>1
+  <c e'>1
 }
 
 nna = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <g' c>4^\markup {23C8} 
   \time 4/4
-  <g' c>1^\markup {23C8} <e a>
+  <e a>1
 }
 
 nnb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e g>4
   \time 4/4
-  <e g>1 <c a'>
+  <c a'>1
 }
 
 ooa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f d'>4^\markup {24a} 
   \time 4/4
-  <f d'>1^\markup {24a} <e e'>
+  <e e'>1
 }
 
 oob = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <b b'~>4
   \time 4/4
-  <b b'~>1 <g b'>
+  <g b'>1
 }
 
 ppa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f b>4^\markup {24b}
   \time 4/4
-  <f b>1^\markup {24b} <e g>
+  <e g>1
 }
 
 ppb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <d b'~>4
   \time 4/4
-  <d b'~> <e b'>
+   <e b'>1
 }
 
 qqa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f b~>4^\markup {24c} 
   \time 4/4
-  <f b~>1^\markup {24c} <e b'>
+  <e b'>1
 }
 
 qqb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <d b'~>4
   \time 4/4
-  <d b'~> <g b>
+   <g b>1
 }
 
 rra = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <a d>4^\markup {24d1} 
   \time 4/4
-  <a d>1^\markup {24d1} <f d'>1
+  <f d'>1
 }
 
 rrb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <f d'~>4
   \time 4/4
-  <f d'~> <b, d'>
+   <b, d'>1
 }
 
 ssa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f d'>4^\markup {24d2}~ 
   \time 4/4
-  <f d'>1^\markup {24d2}~ <f d'>
+  <f d'>1
 }
 
 ssb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <f a>4
   \time 4/4
-  <f a>1 <b, b'>
+  <b, b'>1
 }
 
 tta = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <a d>4^\markup {24e} 
   \time 4/4
-  <a d>1^\markup {24e} <b b>
+  <b b>1
 }
 
 ttb = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  <d, f'>4~ 
   \time 4/4
-  <d, f'>1~ <d f'>
+  <d f'>1
 }
 
 uua = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f~ d'>4^\markup {24f} 
   \time 4/4
-  <f~ d'>1^\markup {24f} <f b>
+  <f b>1
 }
 
 uub = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <f a>4
   \time 4/4
-  <f a>1 <d b'>
+  <d b'>1
 }
 
 vva = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f~ c'>4^\markup {24g} 
   \time 4/4
-  <f~ c'>1^\markup {24g} <f b>
+  <f b>1
 }
 
 vvb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <a' c>4
   \time 4/4
-  <a' c>1 <b d>
+  <b d>1
 }
 
 wwa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f~ c'>4^\markup {24h} 
   \time 4/4
-  <f~ c'>1^\markup {24h} <f b>
+  <f b>1
 }
 
 wwb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <f a>4
   \time 4/4
-  <f a>1 <d b'>
+  <d b'>1
 }
 
 xxa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f~ c'>4^\markup {24i}
   \time 4/4
-  <f~ c'>1^\markup {24i} <f b>
+  <f b>1
 }
 
 xxb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <a' c>4
   \time 4/4
-  <a' c>1 <d, d'>
+  <d, d'>1
 }
 
 yya = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f~ a>4^\markup {24k}
   \time 4/4
-  <f~ a>1^\markup {24k} <f b>
+  <f b>1
 }
 
 yyb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <a c'>4
   \time 4/4
-  <a c'>1 <d b'>
+  <d b'>1
 }
 
 zza = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f~ c'>4^\markup {24l} 
   \time 4/4
-  <f~ c'>1^\markup {24l} <f d'>
+  <f d'>1
 }
 
 zzb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <a' f'>4
   \time 4/4
-  <a' f'>1 <d, b'>
+  <d, b'>1
 }
 
 aaaa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <f~ c'>4^\markup {24m} 
   \time 4/4
-  <f~ c'>1^\markup {24m} <f b>
+  <f b>1
 }
 
 aaab = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <a f''>4 
   \time 4/4
-  <a f''>1 <d d'>
+  <d d'>1
 }
 
 \book{

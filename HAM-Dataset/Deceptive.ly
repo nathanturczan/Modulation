@@ -20,30 +20,38 @@ global = {
 aa = \relative c' {
   \global
   \clef treble
-  \time 2/4
-  <a' c>1~^\markup {110a} <a c>1
+  \time 1/4
+  <a' c>4~^\markup {110a} 
+  \time 4/4
+  <a c>1
 }
 
 ab = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  <d f>4
   \time 4/4
-  <d f>1 <fs, e'>1
+  <fs, e'>1
 }
 
 ba = \relative c'' {
   \global
   \clef treble
-  \time 2/4
-  <a c>1^\markup {110b} <b e>1
+  \time 1/4
+  <a c>4^\markup {110b} 
+  \time 4/4
+  <b e>1
 
 }
 
 bb = \relative c {
   \global
   \clef bass
-  \time 4/4
-  <d' f> <gs, e'>
+  \time 1/4
+  <d' f>4
+   \time 4/4
+  <gs, e'>1
 
 }
 
@@ -51,40 +59,52 @@ bb = \relative c {
 ca = \relative c'' {
   \global
   \clef treble
-  \time 4/4
-   <a~ c>1^\markup {110c} <a b>
+  \time 1/4
+   <a~ c>4^\markup {110c} 
+    \time 4/4
+   <a b>1
 }
 cb = \relative c {
   \global
   \clef bass
-  \time 4/4
-  <d' f> <fs, ds'>
+  \time 1/4
+  <d' f>4
+   \time 4/4
+  <fs, ds'>1
 }
 
 da = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <a c>4^\markup {110d} 
   \time 4/4
-  <a c>1^\markup {110d} <fs cs'>
+  <fs cs'>1
 }
 db = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <d' f>4
   \time 4/4
-  <d' f> <as fs'>
+  <as fs'>1
 }
 
 ea = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <a c>4^\markup {110e} 
   \time 4/4
-  <a c>1^\markup {110e} <cf df>
+  <cf df>1
 }
 eb = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  <d f~>4 
   \time 4/4
-  <d f~> <df f>
+  <df f>1
 }
 
 fa = \relative c' {
@@ -103,140 +123,164 @@ fb = \relative c {
 ga = \relative c' {
   \global
   \clef treble
+  \time 5/4
+  <a' d>4^\markup {111b} <af~ df>4 <af~ ff'> <af f'> <f d'>
   \time 4/4
-  
-  \tuplet 6/4 { <a' d>2^\markup {111b} <af~ df>4 <af~ ff'> <af f'> <f d'> } <e c'>1
+  <e c'>1
 }
 gb = \relative c {
   \global
   \clef bass
+  \time 5/4
+  <f~ a>4 <f af>4 <ff cf'> <d c'> <g b>
   \time 4/4
-  
-  \tuplet 6/4 { <f a>2 <f af>4 <ff cf'> <d c'> <g b>} <c, c'>1
+  <c, c'>1
 }
 
 ha = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 3/4
   \key ef \major
-  \tuplet 3/2 {<ef~ fs>2^\markup {112a} <ef g> <f g> }  <e c'>1
+  <ef~ fs>4^\markup {112a} <ef g~> <f g>
+  \time 4/4
+  <e c'>1
   
 }
 hb = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 3/4
   \key ef \major
-  
-  \tuplet 3/2 { <af c>2 <ef bf'> <df b'> } <c c'>1
+  <af c>4 <ef bf'> <df b'> 
+  \time 4/4
+  <c c'>1
 }
 
 ia = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   \key ef \major
-  <ef~ fs>1^\markup {112b} <ef g>
+  <ef~ fs>4^\markup {112b} 
+  \time 4/4
+  <ef g>1
     
 }
 ib = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   \key ef \major
-  <af' c~>1 <g c>
+  <af' c~>4
+  \time 4/4
+  <g c>1
 }
 
-ja = \relative c'' {
+
+
+ja = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <b a'>4^\markup {113b} 
   \time 4/4
-  <b a'>1^\markup {113b} <df bf'> 
+  <df bf'>1
 }
-jb = \relative c' {
+jb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <f g~>4 
   \time 4/4
-  <f g~>1 <ef g>
+  <ef g>1
 }
 
-ka = \relative c'' {
+ka = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <b a'>4^\markup {113c} 
   \time 4/4
-  <b a'>1^\markup {113c} <ef af>1
+  <ef af>1
 }
-kb = \relative c' {
+kb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <f g>4 
   \time 4/4
-  <f g>1 <c af'>
+  <c af'>1
 }
+
+
 
 la = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <b d>4^\markup {115a1} 
   \time 4/4
-  <b d>1^\markup {115a1} <cf af'>
+  <cf af'>1
 }
 lb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <g f'~>4 
   \time 4/4
-  <g f'~>1 <df f'>
+  <df f'>1
 }
 
 ma = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <cf af'>4^\markup {115a2} 
   \time 4/4
-  <cf af'>1^\markup {115a2} <b g'>
+  <b g'>1
 }
 mb = \relative c, {
   \global
   \clef bass
+  \time 1/4
+  <df f'~>4
   \time 4/4
-  <df f'~>1 <g f'>
+  <g f'>1
 }
 
 na = \relative c {
   \global
   \clef treble
+  \time 1/4
+  <b' ds>4^\markup {115b} 
   \time 4/4
-  <b' ds>1^\markup {115b} <cf ef>
+  <cf ef>1
 }
 nb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <g f'~>4
   \time 4/4
-  <g f'~>1 <df f'>
+  <df f'>1
 }
 
 oa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <b d>4^\markup {115c1} 
   \time 4/4
-  <b d>1^\markup {115c1} <cf df>
+  <cf df>1
 }
 ob = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <g f'~>4 
   \time 4/4
-  <g f'~>1 <df f'>
-}
-
-pa = \relative c' {
-  \global
-  \clef treble
-  \time 4/4
-  <b d>1^\markup {115c2} <b cs>
-}
-pb = \relative c {
-  \global
-  \clef bass
-  \time 4/4
-  <g f'~>1 <df f'>
+  <df f'>1
 }
 
 
@@ -369,6 +413,7 @@ pb = \relative c {
     \tempo 4 = 90
   }
 }
+
 \score {
   <<
     \new PianoStaff <<
@@ -397,6 +442,9 @@ pb = \relative c {
     \tempo 4 = 90
   }
 }
+
+
+
 \score {
   <<
     \new PianoStaff <<
@@ -453,5 +501,8 @@ pb = \relative c {
     \tempo 4 = 90
   }
 }
+
+
+
 
 }

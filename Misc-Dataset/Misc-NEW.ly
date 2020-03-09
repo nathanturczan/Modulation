@@ -19,60 +19,76 @@ global = {
 aa = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   \key g \major
 
        << { \voiceOne 
-       g'1 b1
+       g'4 
+       \time 4/4
+       b1
        }
        \new Voice  
        { \voiceTwo
-       c,1 cs1
+       c,4 
+       \time 4/4
+       cs1
        } >>
 }
 
 ab = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   \key g \major
 
        << { \voiceOne 
-       ef1 e!1
+       ef4 
+       \time 4/4
+       e!1
        }
        \new Voice  
        { \voiceTwo
-       g,1~ g1
+       g,4~ 
+       \time 4/4
+       g1
        } >>
 }
 
 ba = \relative c' {
   \global
   \clef treble
-  \time 2/4
+  \time 1/4
   \key df \major
 
        << { \voiceOne 
-       e!1 f1
+       e!4 
+       \time 4/4
+       f1
        }
        \new Voice  
        { \voiceTwo
-       bf,1 af1
+       bf,4 
+       \time 4/4
+       af1
        } >>
 }
 
 bb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   \key df \major
          <<
        { \voiceOne 
-       g'!1 af1
+       g'!4 
+       \time 4/4
+       af1
        }
        \new Voice  
        { \voiceTwo  
-       df,1~ df1
+       df,4~ 
+       \time 4/4
+       df1
        }
          >>
 }
@@ -81,32 +97,40 @@ bb = \relative c {
 ca = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   \key d \major
          <<
        { \voiceOne
-       b'1 d1  
+       b'4
+       \time 4/4
+       d1  
        }
        \new Voice  
        { \voiceTwo 
-       g,1 f1  
+       g,4 
+       \time 4/4
+       f1  
        }
          >> 
 }
 cb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   \key d \major
   \key d \major
          <<
        { \voiceOne 
-       cs'1 b1  
+       cs'4 
+       \time 4/4
+       b1  
        
        }
        \new Voice  
        { \voiceTwo 
-       e,1 <g, d'>1  
+       e,4 
+       \time 4/4
+       <g, d'>1  
        
        }
          >>
@@ -115,29 +139,37 @@ cb = \relative c {
 da = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   \key d \major
   << { \voiceOne 
-       d1~ d1
+       d4~ 
+       \time 4/4
+       d1
        }
        \new Voice  
        { \voiceTwo
-       fs,1 g1
+       fs,4
+       \time 4/4
+       g1
        } >>
        
 }
 db = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   \key d \major
   << { \voiceOne 
-       as1 b1
+       as4 
+       \time 4/4
+       b1
        
        }
        \new Voice  
        { \voiceTwo
-       as1 g1
+       as4 
+       \time 4/4
+       g1
        
        } >>
 }
@@ -145,28 +177,36 @@ db = \relative c' {
 ea = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   \key d \major
   << { \voiceOne 
-       cs2 b2~ b1
+       cs4 b~ 
+       \time 4/4
+       b1
        }
        \new Voice  
        { \voiceTwo
-       g1 fs1
+       g2 
+       \time 4/4
+       fs1
        } >>
 }
 eb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   \key d \major
   << { \voiceOne 
-       e'2 d2~ d1
+       e'4 d~ 
+       \time 4/4
+       d1
        
        }
        \new Voice  
        { \voiceTwo
-       e,2 es2 fs1
+       e,4 es 
+       \time 4/4
+       fs1
        
        } >>
 }
@@ -174,42 +214,54 @@ eb = \relative c {
 fa = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   \key d \major
   << { \voiceOne 
-       b2~ b~ b1
+       b4~ b~ 
+       \time 4/4
+       b1
        }
        \new Voice  
        { \voiceTwo
-       d,2 es fs1
+       d,4 es 
+       \time 4/4
+       fs1
        } >>
 }
 fb = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   \key d \major
   << { \voiceOne 
-       b2 cs d1
+       b4 cs 
+       \time 4/4
+       d1
        }
        \new Voice  
        { \voiceTwo
-       b,2~ b2~ b1 
+       b,4~ b~ 
+       \time 4/4
+       b1 
        } >>
 }
 
 ga = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   \key g \minor
          <<
        { \voiceOne 
-       f1 g1
+       f4
+       \time 4/4
+       g1
        }
        \new Voice  
        { \voiceTwo  
-       c,1 d1
+       c,4 
+       \time 4/4
+       d1
        }
          >>
   
@@ -217,16 +269,20 @@ ga = \relative c' {
 gb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   \key g \minor
          <<
        { \voiceOne 
-       bf'1~ bf1
+       bf'4~ 
+       \time 4/4
+       bf1
        
        }
        \new Voice  
        { \voiceTwo  
-       d,1 g1
+       d,4 
+       \time 4/4
+       g1
        
        }
          >>
@@ -235,28 +291,36 @@ gb = \relative c {
 ha = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   \key g \minor
   << { \voiceOne 
-       bf2 a2~ a1
+       bf4 a~ 
+       \time 4/4
+       a1
        }
        \new Voice  
        { \voiceTwo
-       g1 fs1
+       g2 
+       \time 4/4
+       fs1
        } >>
 }
 hb = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   \key g \minor
   << { \voiceOne 
-       d2 ef2 d1
+       d4 ef 
+       \time 4/4
+       d1
        
        }
        \new Voice  
        { \voiceTwo
-       d,2 c4 cs4 d1
+       d,4 c8 cs8 
+       \time 4/4
+       d1
        
        } >>
 }
@@ -264,57 +328,73 @@ hb = \relative c' {
 ia = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 3/4
   \key g \minor
   << { \voiceOne 
-       \tuplet 3/2 {fs2 g f!~} f2.
+       fs4 g f!~ 
+       \time 4/4
+       f1
        }
        \new Voice  
        { \voiceTwo
-       d1 c1
+       d2.
+       \time 4/4
+       c1
        } >>
 }
 ib = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 3/4
   \key g \minor
   << { \voiceOne 
-       \tuplet 3/2 { a2 g gs} a1 
+       a4 g gs
+       \time 4/4
+       a1 
        }
        \new Voice  
        { \voiceTwo
-       \tuplet 3/2 {c,2 bf b} c1
+       c,4 bf b
+       \time 4/4
+       c1
        } >>
 }
 
 ja = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   \key fs \minor
          <<
        { \voiceOne 
-       d'1 cs1
+       d'4 
+       \time 4/4
+       cs1
        }
        \new Voice  
        { \voiceTwo  
-       e,1 fs1
+       e,4 
+       \time 4/4
+       fs1
        }
          >>
 }
 jb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   \key fs \minor
          <<
        { \voiceOne 
-       b'1 a1
+       b'4 
+       \time 4/4
+       a1
        }
        \new Voice  
        { \voiceTwo  
-       cs,1 fs1
+       cs,4 
+       \time 4/4
+       fs1
        }
          >>
 }
@@ -322,30 +402,34 @@ jb = \relative c {
 ka = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   \key af \major
          <<
        { \voiceOne 
-       c'1 df1
+       c'4 df1
        }
        \new Voice  
        { \voiceTwo  
-       ef,1~ ef1
+       ef,4~ ef1
        }
          >> 
 }
 kb = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   \key af \major
          <<
        { \voiceOne 
-       a1 bf1
+       a4 
+       \time 4/4
+       bf1
        }
        \new Voice  
        { \voiceTwo  
-       fs1 g1
+       fs4 
+       \time 4/4
+       g1
        }
          >>
 }
@@ -353,30 +437,38 @@ kb = \relative c' {
 la = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   \key f \major
          <<
        { \voiceOne 
-       gs1 a1
+       gs4 
+       \time 4/4
+       a1
        }
        \new Voice  
        { \voiceTwo  
-       e1 <c f>1
+       e4
+       \time 4/4
+       <c f>1
        }
          >>
 }
 lb = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   \key f \major
          <<
        { \voiceOne 
-       bf1 a1
+       bf4 
+       \time 4/4
+       a1
        }
        \new Voice  
        { \voiceTwo  
-       c,1 f1
+       c,4
+       \time 4/4
+       f1
        }
          >>
 }
@@ -384,31 +476,39 @@ lb = \relative c' {
 ma = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   \key c \major
          <<
        { \voiceOne 
-       f1 e1
+       f4
+       \time 4/4
+       e1
        }
        \new Voice  
        { \voiceTwo  
-       b1 c1
+       b4
+       \time 4/4
+       c1
        }
          >>
 }
 mb = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   \key c \major
          <<
        { \voiceOne 
-       g1~ g1
+       g4~ 
+       \time 4/4
+       g1
        
        }
        \new Voice  
        { \voiceTwo  
-       d1 c1
+       d4
+       \time 4/4
+       c1
        
        }
          >>
@@ -417,26 +517,34 @@ mb = \relative c' {
 na = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   << { \voiceOne 
-       d1 e1
+       d4
+       \time 4/4
+       e1
        }
        \new Voice  
        { \voiceTwo
-       b1 c1
+       b4
+       \time 4/4
+       c1
        } >>
 }
 nb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   << { \voiceOne 
-       g'1~ g1
+       g'4~ 
+       \time 4/4
+       g1
        
        }
        \new Voice  
        { \voiceTwo
-       f1 e1
+       f4
+       \time 4/4
+       e1
        
        } >>
 }
@@ -444,26 +552,34 @@ nb = \relative c {
 oa = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   << { \voiceOne 
-       d1 g1
+       d4
+       \time 4/4
+       g1
        }
        \new Voice  
        { \voiceTwo
-       b,1 c1
+       b,4
+       \time 4/4
+       c1
        } >>
 }
 ob = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   << { \voiceOne 
-       g1~ g1
+       g4~
+       \time 4/4
+       g1
        
        }
        \new Voice  
        { \voiceTwo
-       f1 e1
+       f4
+       \time 4/4
+       e1
        
        } >>
 }
@@ -471,26 +587,34 @@ ob = \relative c' {
 pa = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   << { \voiceOne 
-       a1 g1
+       a4
+       \time 4/4
+       g1
        }
        \new Voice  
        { \voiceTwo
-       f1 e1 
+       f4
+       \time 4/4
+       e1 
        } >>
 }
 pb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   << { \voiceOne 
-       d'1 e1
+       d'4
+       \time 4/4
+       e1
        
        }
        \new Voice  
        { \voiceTwo
-       b,1 c1
+       b,4
+       \time 4/4
+       c1
        
        } >>
 }
@@ -498,26 +622,34 @@ pb = \relative c {
 qa = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   << { \voiceOne 
-       a1 g1
+       a4
+       \time 4/4
+       g1
        }
        \new Voice  
        { \voiceTwo
-       f1 e1 
+       f4
+       \time 4/4
+       e1 
        } >>
 }
 qb = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   << { \voiceOne 
-       b1 c1
+       b4
+       \time 4/4
+       c1
        
        }
        \new Voice  
        { \voiceTwo
-       d,1 e1
+       d,4
+       \time 4/4
+       e1
        
        } >>
 }
@@ -525,25 +657,34 @@ qb = \relative c' {
 ra = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 1/4
   << { \voiceOne 
-       a1 g1
+       
+       a4
+       \time 4/4
+       g1
        }
        \new Voice  
        { \voiceTwo
-       d1 e1
+       d4 
+       \time 4/4
+       e1
        } >>
 }
 rb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 1/4
   << { \voiceOne 
-       b'1 c1
+       b'4 
+       \time 4/4
+       c1
        }
        \new Voice  
        { \voiceTwo
-       f,1 e1
+       f,4
+       \time 4/4
+       e1
        } >>
 }
 
@@ -581,31 +722,34 @@ sb = \relative c {
 ta = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 3/4
   \key c \major
          <<
        { \voiceOne 
-       \tuplet 3/2 { d'2 e d }
+       d'4 e d 
+       \time 4/4
        c1}
        \new Voice  
        { \voiceTwo
-       \tuplet 3/2 { a2 g f }
+       a4 g f 
+       \time 4/4
        e1
        } >>
 }
 tb = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 3/4
   <<
        { \voiceOne 
-       \tuplet 3/2 { c2~ c b }
+       c4~ c b 
+       \time 4/4
        c1
-
        }
        \new Voice  
        { \voiceTwo  
-       \tuplet 3/2 { fs,2 g~ g }
+       fs,4 g~ g 
+       \time 4/4
        c,1
 
        }
@@ -615,57 +759,71 @@ tb = \relative c' {
 ua = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 6/4
   << { \voiceOne 
-       \tuplet 6/4 {f,4 e d c~
-       c4 d} b1
+       f,4 e d c~
+       c4 d
+       \time 4/4
+       b1
        }
        \new Voice  
        { \voiceTwo
-       \tuplet 6/4 {d4 c b a~
-       a2} g1
+       d4 c b a~
+       a2
+       \time 4/4
+       g1
        } >>
 }
 ub = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 6/4
   << { \voiceOne 
-       \tuplet 6/4 {a4 g f e~
-       e f } d1
+       a4 g f e~
+       e f 
+       \time 4/4
+       d1
        }
        \new Voice  
        { \voiceTwo
-       \tuplet 6/4 {f,4 g gs a~
-       a f} g1
+       f,4 g gs a~
+       a f 
+       \time 4/4
+       g1
        } >>
 }
 
 va = \relative c {
   \global
   \clef treble
+  \time 1/4
+  <d' b'>4 
   \time 4/4
-  <d' b'>1 <c a'>1
+  <c a'>1
 }
 vb = \relative c, {
   \global
   \clef bass
+  \time 1/4
+  <e' gs>4 
   \time 4/4
-  <e' gs>1 <f a>1
+  <f a>1
 }
 
 wa = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 3/4
   <<
        { \voiceOne 
-       e'1
+       e'2.
+       \time 4/4
        d1
        }
        \new Voice  
        { \voiceTwo  
-       g,1
+       g,2.
+       \time 4/4
        f1
        }
          >>
@@ -674,15 +832,17 @@ wa = \relative c' {
 wb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 3/4
   <<
        { \voiceOne 
-       \tuplet 3/2 { c'2 bf a~ }
+       c'4 bf a~ 
+       \time 4/4
        a1
        }
        \new Voice  
        { \voiceTwo  
-       \tuplet 3/2 { c,1 cs2 }
+       c,2 cs4 
+       \time 4/4
        d1
        }
          >>
@@ -691,16 +851,18 @@ wb = \relative c {
 xa = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   <<
        { \voiceOne 
-       e'2 d2
+       e'4 d
+       \time 4/4
        c1
        
        }
        \new Voice  
        { \voiceTwo  
-       g1~
+       g2~
+       \time 4/4
        g1
        
        }
@@ -709,16 +871,18 @@ xa = \relative c' {
 xb = \relative c  {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   <<
        { \voiceOne 
-       c'2 b 
+       c'4 b 
+       \time 4/4
        c1
        
        }
        \new Voice  
        { \voiceTwo  
-       c,2 d2 
+       c,4 d 
+       \time 4/4
        e1
        
        }
@@ -728,15 +892,17 @@ xb = \relative c  {
 ya = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       c'2 d2
+       c'4 d
+       \time 4/4
        e1
        
        }
        \new Voice  
        { \voiceTwo
-       g,1~
+       g,2~
+       \time 4/4
        g1
        
        } >>
@@ -744,15 +910,17 @@ ya = \relative c' {
 yb = \relative c'  {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       c2 b 
+       c4 b 
+       \time 4/4
        c1
        
        }
        \new Voice  
        { \voiceTwo
-       e,2 d 
+       e,4 d 
+       \time 4/4
        c1
        
        } >>
@@ -761,28 +929,36 @@ yb = \relative c'  {
 za = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       c2 c2 c1
+       c4 c 
+       \time 4/4
+       c1
        
        }
        \new Voice  
        { \voiceTwo
-       e,2 f e1
+       e,4 f 
+       \time 4/4
+       e1
        
        } >>
 }
 zb = \relative c  {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       g'2 a2 g1
+       g'4 a 
+       \time 4/4
+       g1
        
        }
        \new Voice  
        { \voiceTwo
-       c,1 c1
+       c,2 
+       \time 4/4
+       c1
        
        } >>
 }
@@ -790,28 +966,36 @@ zb = \relative c  {
 aaa = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       c'1~ c1
+       c'2~ 
+       \time 4/4
+       c1
        
        }
        \new Voice  
        { \voiceTwo
-       e,2 f2 e1
+       e,4 f 
+       \time 4/4
+       e1
        
        } >>
 }
 aab = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       g'2 a2 g1
+       g'4 a 
+       \time 4/4
+       g1
        
        }
        \new Voice  
        { \voiceTwo
-       c,1~ c1
+       c,2~ 
+       \time 4/4
+       c1
        
        } >>
 }
@@ -819,14 +1003,18 @@ aab = \relative c {
 bba = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       g1~ g1
+       g2~ 
+       \time 4/4
+       g1
        
        }
        \new Voice  
        { \voiceTwo
-       d2 e2 d1
+       d4 e 
+       \time 4/4
+       d1
        
        } >>
 }
@@ -835,12 +1023,16 @@ bbb = \relative c {
   \clef bass
   \time 4/4
   << { \voiceOne 
-       b'2 c2 b1
+       b'4 c4
+       \time 2/4
+       b1
        
        }
        \new Voice  
        { \voiceTwo
-       g,2 g2 g1
+       g,4 g
+       \time 4/4
+       g1
        
        } >>
 }
@@ -848,28 +1040,36 @@ bbb = \relative c {
 cca = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       c,1~ c1
+       c,2~ 
+       \time 4/4
+       c1
        
        }
        \new Voice  
        { \voiceTwo
-       c2 a2 g1
+       c4 a 
+       \time 4/4
+       g1
        
        } >>
 }
 ccb = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       e,2 f2 e1
+       e,4 f 
+       \time 4/4
+       e1
        
        }
        \new Voice  
        { \voiceTwo
-       c2 c2 c1
+       c4 c 
+       \time 4/4
+       c1
        
        } >>
 }
@@ -877,28 +1077,36 @@ ccb = \relative c' {
 dda = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       e'2 f2 g1
+       e'4 f 
+       \time 4/4
+       g1
        
        }
        \new Voice  
        { \voiceTwo
-       c,1 c1
+       c,2 
+       \time 4/4
+       c1
        
        } >>
 }
 ddb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       g'2 a2 g1
+       g'4 a 
+       \time 4/4
+       g1
        
        }
        \new Voice  
        { \voiceTwo
-       c,2 a2 e1
+       c,4 a 
+       \time 4/4
+       e1
        
        } >>
 }
@@ -906,25 +1114,32 @@ ddb = \relative c {
 eea = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       g2 a2 c1
+       g4 a 
+       \time 4/4
+       c1
        }
        \new Voice  
        { \voiceTwo
-       e,2 f2 g1
+       e,4 f 
+       \time 4/4
+       g1
        } >>
 }
 eeb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       c'1 e1
+       c'2 
+       \time 4/4
+       e1
        }
        \new Voice  
        { \voiceTwo
-       c,2 a2
+       c,4 a
+       \time 4/4
        e1
        } >>
 }
@@ -946,273 +1161,350 @@ ffb = \relative c {
 gga = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   \key df \major
-  <gf bf>2^\markup {HAM 107b} <ef af>2 <df df'>1
+  <gf bf>4^\markup {HAM 107b} <ef af>
+  \time 4/4
+  <df df'>1
 }
 ggb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   \key df \major
-  <af' c>2 <gf c> <f df'>1
+  <af' c>4 <gf c> 
+  \time 4/4
+  <f df'>1
 }
 hha = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g~ c~ e>4 
   \time 4/4
-  <g~ c~ e>1 <g c f>1
+  <g c f>1
 }
 hhb = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  c4 
   \time 4/4
-  c1 d1
+  d1
 }
 
 iia = \relative c {
   \global
   \clef treble
+  \time 1/4
+  <d' f>4 
   \time 4/4
-  <d' f>1 <cs fs>1
+  <cs fs>1
 }
 iib = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <d a'>4
   \time 4/4
-  <d a'>1 <ds gs>1
+  <ds gs>1
 }
 
 jja = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <c g'>4 
   \time 4/4
-  <c g'>1 <cs fs>1
+  <cs fs>1
 }
 jjb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e g>4 
   \time 4/4
-  <e g>1 <ds gs>1
+  <ds gs>1
 }
 
 kka = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   \key ef \major
-  <ef~ af>2 <ef~ c'>2 <ef bf'>1
+  <ef~ af>4 <ef~ c'>
+  \time 4/4
+  <ef bf'>1
 }
 kkb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   \key ef \major
-  <f bf~>1 <g bf>1
+  <f bf~>2 
+  \time 4/4
+  <g bf>1
 }
 
 lla = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 3/4
   \key ef \major
-  \tuplet 3/2 {<ef af~>2 <d~ af'>2 <d c'>2} <ef bf'>1
+  <ef af~>4 <d~ af'> <d c'> 
+  \time 4/4
+  <ef bf'>1
 }
 
 llb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 3/4
   \key ef \major
-  <f bf~>1 <g bf>1
+  <f bf~>2. 
+  \time 4/4
+  <g bf>1
 }
 
 mma = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   \key ef \major
-  <ef~ g>2 <ef~ bf'>2 <ef af>1
+  <ef~ g>4 <ef~ bf'>
+  \time 4/4
+  <ef af>1
 }
 mmb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   \key ef \major
-  <ef bf'~>1 <f bf>1
+  <ef bf'~>2 
+  \time 4/4
+  <f bf>1
 }
 
 nna = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g,~ c f~>4
   \time 4/4
-  <g,~ c f~>1 <g b f'>1
+  <g b f'>1
 }
 nnb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  d4~ 
   \time 4/4
-  d1~ d1
+  d1
 }
 
 ooa = \relative c {
   \global
   \clef treble
+  \time 1/4
+  <f bf>4^\markup {HAM 217a} 
   \time 4/4
-  <f bf>1^\markup {HAM 217a} <e b'>1
+  <e b'>1
 }
 oob = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <g c>4 
   \time 4/4
-  <g c>1 <gs b>
+  <gs b>1
 }
 ppa = \relative c' {
   \global
   \clef treble
+  \time 2/4
+  <a~ d>4^\markup {HAM 217b} <a ef'~> 
   \time 4/4
-  <a~ d>2^\markup {HAM 217b} <a ef'~>2 <af ef'>1
+  <af ef'>1
 }
 ppb = \relative c {
   \global
   \clef bass
+  \time 2/4
+  <b~ e>4 <b ef~>
   \time 4/4
-  <b~ e>2 <b ef~>2 <c ef>1
+  <c ef>1
 }
 
 qqa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <a~ d>4 
   \time 4/4
-  <a~ d>1 <a ef'>1
+  <a ef'>1
 }
 qqb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <b~ e>4 
   \time 4/4
-  <b~ e>1 <b ef>1
+  <b ef>1
 }
 
 rra = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <bf ef>4^\markup {HAM 242c} 
   \time 4/4
-  <bf ef>1^\markup {HAM 242c} <a f'>1
+  <a f'>1
 }
 rrb = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  <g c~>4
   \time 4/4
-  <g c~>1 <f c'>1
+  <f c'>1
 }
 
 ssa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <ds fs d'>4^\markup {HAM 72a} 
   \time 4/4
-  <ds fs d'>1^\markup {HAM 72a} <e g cs>1
+  <e g cs>1
 }
 ssb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  as4 
   \time 4/4
-  as1 b1
+  b1
 }
 
 tta = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <af df>4~^\markup {HAM 81} 
   \time 4/4
-  <af df>1~^\markup {HAM 81} <af df>
+  <af df>1
 }
 ttb = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <cf ef>4
   \time 4/4
-  <cf ef>1 <b f'>1
+  <b f'>1
 }
 
 uua = \relative c {
   \global
   \clef treble
+  \time 2/4
+  <e' g c>4^\markup {HAM 77} <d f b>
   \time 4/4
-  <e' g c>2^\markup {HAM 77} <d f b>2 <c e c'>1
+  <c e c'>1
   
 }
 uub = \relative c' {
   \global
   \clef bass
+  g4 g,4 
   \time 4/4
-  g2 g,2 c1
+  c1
   
 }
 
 vva = \relative c'' {
   \global
   \clef treble
+  \time 3/4
+  <a c>4^\markup {HAM 78} <f b> <e a>
   \time 4/4
-  \tuplet 3/2 { <a c>2^\markup {HAM 78} <f b>2 <e a>2} <gs b>1
+  <gs b>1
 }
 vvb = \relative c {
   \global
   \clef bass
+  \time 3/4
+  <a e'>4 <gs d'> <a c> 
   \time 4/4
-  \tuplet 3/2 { <a e'>2 <gs d'>2 <a c>2} <e e'>1
+  <e e'>1
 }
 
 wwa = \relative c' {
   \global
   \clef treble
+  \time 3/4
+  <c' e>4^\markup {HAM 67} <ef as> <d g~>
   \time 4/4
-  \tuplet 3/2 { <c' e>2^\markup {HAM 67} <ef as>2 <d g~>2 } <c g'>1
+  <c g'>1
 }
 wwb = \relative c'' {
   \global
   \clef treble
+  \time 3/4 
+  <g b>4 <fs as>4 <f b>4 
   \time 4/4
-  \tuplet 3/2 { <g b>2 <fs as>2 <f b>2 } <e bf'>1
+  <e bf'>1
 }
     
 xxa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <c'~ f>4^\markup {HAM 68} 
   \time 4/4
-  <c'~ f>1^\markup {HAM 68} <c e>1
+  <c e>1
 }
 xxb = \relative c  {
   \global
   \clef bass
+  \time 1/4
+  <d a'~>4 
   \time 4/4
-  <d a'~>1 <e a>1
+  <e a>1
 }
 
 yya = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 6/4
   \key g \major
   << { \voiceOne 
-       \tuplet 6/8 {fs8^\markup {HAM 60} g8 e8 d8~ d4}
+       fs4^\markup {HAM 60} g e d~ d2
+       \time 4/4
        e1
        }
        \new Voice  
        { \voiceTwo
-       \tuplet 6/8 {d4 c8 b8~ b8 a8} 
+       d2 c4 b4~ b4 a4 
+       \time 4/4
        g1
        } >>
 }
 yyb = \relative c'  {
   \global
   \clef bass
-  \time 4/4
+  \time 6/4
   \key g \major
   << { \voiceOne 
-       \tuplet 6/8 { a8 g8~ g4 fs4} e1
+       a4 g4~ g2 fs2
+       \time 4/4
+       e1
 
        }
        \new Voice  
        { \voiceTwo
-       \tuplet 6/8 { d8 b8 c8 g8 b4} e,1 
+       d4 b4 c4 g4 b2
+       \time 4/4
+       e,1 
  
        } >>
 }
@@ -1247,27 +1539,35 @@ zzb = \relative c'  {
 aaaa = \relative c''' {
   \global
   \clef treble
-  \time 4/4
+  \time 6/4
   \key a \major
   << { \voiceOne 
-       \tuplet 3/2 {gs4^\markup {HAM 61a} fs4 e4 cs4~ cs4 b4 } cs1
+       gs4^\markup {HAM 61a} fs4 e4 cs4~ cs4 b4 
+       \time 4/4
+       cs1
        }
        \new Voice  
        { \voiceTwo  
-       \tuplet 3/2 {gs2 gs1~ } gs1}
+       gs2 gs1~ 
+       \time 4/4
+       gs1}
         >>
 }
 aaab = \relative c' {
   \global
   \clef bass
-  \time 4/4
+  \time 6/4
   \key a \major
   << { \voiceOne 
-       \tuplet 3/2 {bs2 cs2 ds2} e1
+       bs2 cs2 ds2 
+       \time 4/4
+       e1
        }
        \new Voice  
        { \voiceTwo  
-       \tuplet 3/2 {gs,2 gs,1} cs1}
+       gs,2 gs,1
+       \time 4/4
+       cs1}
         >>
 }
 
@@ -1299,92 +1599,120 @@ bbbb = \relative c {
 ccca = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g cs>4^\markup "HAM 6a" 
   \time 4/4
-  <g cs>1^\markup "HAM 6a" <fs d'>1
+  <fs d'>1
 }
 cccb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <e g>4
   \time 4/4
-  <e g>1 <d a'>1
+  <d a'>1
 }
 
 ddda = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <a d>4^\markup "HAM 6b" 
   \time 4/4
-  <a d>1^\markup "HAM 6b" <gs e'>1
+  <gs e'>1
 }
 dddb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <f a>4 
   \time 4/4
-  <f a>1 <e b'>1
+  <e b'>1
 }
 
 eeea = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <bf e>4^\markup "HAM 6c" 
   \time 4/4
-  <bf e>1^\markup "HAM 6c" <a f'>1
+  <a f'>1
 }
 eeeb = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  <g bf>4 
   \time 4/4
-  <g bf>1 <f c'>1
+  <f c'>1
 }
 
 fffa = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <c fs>4^\markup "HAM 6d" 
   \time 4/4
-  <c fs>1^\markup "HAM 6d" <b g'>1
+  <b g'>1
 }
 fffb = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  <a c>4
   \time 4/4
-  <a c>1 <g d'>1 
+  <g d'>1 
 }
 
 ggga = \relative c''' {
   \global
   \clef treble
+  \time 1/4
+  <d, gs>4^\markup "HAM 6e" 
   \time 4/4
-  <d, gs>1^\markup "HAM 6e" <cs a'>1
+  <cs a'>1
 }
 gggb = \relative c'' {
   \global
   \clef bass
+  \time 1/4
+  <b, d>4
   \time 4/4
-  <b, d>1 <a e'>1
+  <a e'>1
 }
 
 hhha = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <af fs'>4^\markup "Penderecki augmented 6ths" 
   \time 4/4
-  <af fs'>1^\markup "Penderecki augmented 6ths" <g g'>1
+  <g g'>1
 }
 hhhb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <f ds'>4 
   \time 4/4
-  <f ds'>1 <e e'>1
+  <e e'>1
 }
 
 iiia = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <fs a d>4^\markup "mussorgsky" 
   \time 4/4
-  <fs a d>1^\markup "mussorgsky" <gf af ef'>1
+  <gf af ef'>1
 }
 iiib = \relative c {
   \global
   \clef bass
+  \time 1/4
+  c4~ 
   \time 4/4
-  c1~ c1
+  c1
 }
 
 jjja = \relative c'' {
@@ -1418,84 +1746,107 @@ jjjb = \relative c {
 kkka = \relative c' {
   \global
   \clef treble
+  \time 2/4
+  <ef~ a>4^\markup "Alfie" <ef d'> 
   \time 4/4
-  <ef~ a>2^\markup "Alfie" <ef d'>2 <e fs b>1
+  <e fs b>1
 }
 kkkb = \relative c {
   \global
   \clef bass
+  \time 2/4
+  <c fs>2
   \time 4/4
-  <c fs>1
   a1
 }
 
 llla = \relative c' {
   \global
   \clef treble
+  \time 3/4
+  <c e~ a~>4^\markup "Alfie" <b~ e a~> <b~ ds a'>
   \time 4/4
-  \tuplet 3/2 { <c e~ a~>2^\markup "Alfie" <b~ e a~>2 <b~ ds a'>2 } <b e g>1
+  <b e g>1
 }
 lllb = \relative c {
   \global
   \clef bass
+  \time 3/4
+  f2. 
   \time 4/4
-  f1 c1
+  c1
 }
 
 mmma = \relative c' {
   \global
   \clef treble
+  \time 2/4
+  <e cs'>4^\markup "Liszt Kyrie" <f~ c'> 
   \time 4/4
-  <e cs'>2^\markup "Liszt Kyrie" <f~ c'>2 <f d'>1
+  <f d'>1
 }
 mmmb = \relative c' {
   \global
   \clef bass
+  \time 2/4
+  a2
   \time 4/4
-  a1 bf1
+  bf1
 }
 
 nnna = \relative c' {
   \global
   \clef treble
+  \time 2/4
+  <e cs'~>4^\markup "Liszt Kyrie" <f~ cs'>
   \time 4/4
-  <e cs'~>2^\markup "Liszt Kyrie" <f~ cs'>2 <f d'>1
+  <f d'>1
 }
 nnnb = \relative c' {
   \global
   \clef bass
+  \time 2/4
+  a2 
   \time 4/4
-  a1 bf1
+  bf1
 }
 
 oooa = \relative c' {
   \global
   \clef treble
   \key df \major
+  \time 2/4
+  <df bff'>4^\markup "Liszt Sanctus" <c af'>
   \time 4/4
-  <df bff'>2^\markup "Liszt Sanctus" <c af'>2 <df af'>1
+  <df af'>1
 }
 ooob = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 2/4
   \key df \major
-  ff2 ef2 f1
+  ff4 ef
+  \time 4/4
+  f1
 }
 
 pppa = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  \time 3/4
   \key df \major
-  \tuplet 3/2 { <df bff'~>2^\markup "Liszt Sanctus" <c~ bff'>2 <c af'>2 } <df af'>1
+  <df bff'~>4^\markup "Liszt Sanctus" <c~ bff'> <c af'~>
+  \time 4/4
+  <df af'>1
 }
 pppb = \relative c {
   \global
   \clef bass
-  \time 4/4
+  \time 3/4
   \key df \major
-  \tuplet 3/2 { ff1 ef2 } f1
+  ff2 ef4 
+  \time 4/4
+  f1
 }
 
 qqqa = \relative c'' {

@@ -20,139 +20,178 @@ global = {
 aa = \relative c' {
   \global
   \clef treble
-  \time 2/4
-  <d g~ b>1^\markup {27a1} <e g c>1
+  \time 1/4
+  <d g~ b>4^\markup {27a1} 
+  \time 4/4
+  <e g c>1
 }
 
 ab = \relative c {
   \global
   \clef bass
+  \time 1/4
+  g'4~ 
   \time 4/4
-  g'1~ g
+  g1
 }
 
 ba = \relative c' {
   \global
   \clef treble
-  \time 2/4
-  <e e~ b'>1^\markup {27a2} <c e c'>
+  \time 1/4
+  <e e~ b'>4^\markup {27a2} 
+  \time 4/4
+  <c e c'>1
 }
 
 bb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  g'4~ 
   \time 4/4
-  g'1~ g
+  g1
 }
 
 
 ca = \relative c' {
   \global
   \clef treble
-  \time 4/4
-   <f a c~>1^\markup {27a3} <e g c>1
+  \time 1/4
+   <f a c~>4^\markup {27a3} 
+   \time 4/4
+   <e g c>1
 }
 cb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  f4
   \time 4/4
-  f1 g
+  g1
 }
 
 da = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <c~ f c'~>4^\markup {27a4} 
   \time 4/4
-  <c~ f c'~>1^\markup {27a4} <c e c'>1
+  <c e c'>1
 }
 db = \relative c {
   \global
   \clef bass
+  \time 1/4
+  a'4
   \time 4/4
-  a'1 g1
+  g1
 }
 
 ea = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <a e'~ c'~>4^\markup {27a5} 
   \time 4/4
-  <a e'~ c'~>1^\markup {27a5} <c e c'>1
+  <c e c'>1
 }
 eb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  a'4
   \time 4/4
-  a'1 g
+  g1
 }
 
 fa = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <e g~ c>4^\markup {27b1} 
   \time 4/4
-  <e g~ c>1^\markup {27b1} <d g b>
+  <d g b>1
 }
 fb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  g'4~ 
   \time 4/4
-  g'1~ g
+  g1
 }
 
 ga = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <e g c>4^\markup {27b2} 
   \time 4/4
-  <e g c>1^\markup {27b2} <e b' e>
+  <e b' e>1
 }
 gb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  g'4~ 
   \time 4/4
-  g'1~ g
+  g1
 }
 
 ha = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <g' e'>4^\markup {27b3} 
   \time 4/4
-  <g' e'>1^\markup {27b3} <a f'>
+  <a f'>1
 }
 hb = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <g' c~>4 
   \time 4/4
-  <g' c~>1 <f c'>
+  <f c'>1
 }
 
 ia = \relative c'' {
   \global
   \clef treble
+  \time 1/4
+  <g e'>4^\markup {27b4} 
   \time 4/4
-  <g e'>1^\markup {27b4} <f f'>
+  <f f'>1
 }
 ib = \relative c {
   \global
   \clef bass
+  \time 1/4
+  <g' c~>4
   \time 4/4
-  <g' c>1 <a c>
+  <a c>1
 }
 
 ja = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <e c'>4~^\markup {27b5} 
   \time 4/4
-  <e c'>1~^\markup {27b5} <e c'>
+  <e c'>1
 }
 jb = \relative c' {
   \global
   \clef bass
+  \time 1/4
+  <g c>4
   \time 4/4
-  <g c>1 <a a>
+  <a a>1
 }
 
 
 \book{
-  \bookOutputSuffix "27a1" 
 \score {
   <<
     \new PianoStaff <<
@@ -171,10 +210,8 @@ jb = \relative c' {
     }
   }
 }
-}
 
-\book {
-  \bookOutputSuffix "27a2" 
+
 \score {
   <<
     \new PianoStaff <<
@@ -193,10 +230,8 @@ jb = \relative c' {
     }
   }
 }
-}
 
-\book {
-  \bookOutputSuffix "27a3" 
+
 \score {
   <<
     \new PianoStaff <<
@@ -215,10 +250,8 @@ jb = \relative c' {
     }
   }
 }
-}
 
-\book {
-  \bookOutputSuffix "27a4" 
+
 \score {
   <<
     \new PianoStaff <<
@@ -237,10 +270,8 @@ jb = \relative c' {
     }
   }
 }
-}
 
-\book {
-  \bookOutputSuffix "27a5" 
+
 \score {
   <<
     \new PianoStaff <<
@@ -259,10 +290,7 @@ jb = \relative c' {
     }
   }
 }
-}
 
-\book {
-  \bookOutputSuffix "27b1"
 \score {
   <<
     \new PianoStaff <<
@@ -281,10 +309,7 @@ jb = \relative c' {
     }
   }
 }
-}
 
-\book {
-  \bookOutputSuffix "27b2"
 \score {
   <<
     \new PianoStaff <<
@@ -303,10 +328,7 @@ jb = \relative c' {
     }
   }
 }
-}
 
-\book {
-  \bookOutputSuffix "27b3"
 \score {
   <<
     \new PianoStaff <<
@@ -325,10 +347,7 @@ jb = \relative c' {
     }
   }
 }
-}
 
-\book {
-  \bookOutputSuffix "27b4"
 \score {
   <<
     \new PianoStaff <<
@@ -347,10 +366,7 @@ jb = \relative c' {
     }
   }
 }
-}
 
-\book {
-  \bookOutputSuffix "27b5"
 \score {
   <<
     \new PianoStaff <<

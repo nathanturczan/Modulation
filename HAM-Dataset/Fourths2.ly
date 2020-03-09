@@ -21,101 +21,131 @@ aa = \relative c'' {
   \global
   \clef treble
   \time 2/4
-<g c e>2^\markup "210a" <g c f> <g c g'>1
+<g~ c~ e>4^\markup "210a" <g~ c~ f> 
+\time 4/4
+<g c g'>1
 }
 
 ab = \relative c' {
 \global
 \clef bass
+\time 2/4
+c4 d 
 \time 4/4
-c2 d e1
+e1
 }
 
 ba = \relative c' {
   \global
   \clef treble
   \time 2/4
-<g c e>2^\markup "211b" <g c f> <fs b fs'>1
+<g c e>4^\markup "211b" <g c f> 
+\time 4/4
+<fs b fs'>1
 
 }
 
 bb = \relative c {
 \global
 \clef bass
-\time 4/4
+\time 2/4
 
-c2 d ds1
+c4 d 
+\time 4/4
+ds1
 }
 
 
 ca = \relative c {
   \global
   \clef treble
-  \time 4/4
-   <d' f>2^\markup "212a" <cs fs>2 <c g'>1
+  \time 2/4
+   <d' f>4^\markup "212a" <cs fs>
+   \time 4/4
+   <c g'>1
 }
 cb = \relative c {
   \global
   \clef bass
+  \time 2/4
+  <d a'>4 <ds gs>
   \time 4/4
-  <d a'>2 <ds gs>2 <e g>1
+  <e g>1
 }
 
 da = \relative c' {
   \global
   \clef treble
+  \time 2/4
+  <c g'>4^\markup "212b" <cs fs>
   \time 4/4
-  <c g'>2^\markup "212b" <cs fs>2 <d f>1
+  <d f>1
 }
 db = \relative c {
   \global
   \clef bass
+  \time 2/4
+  <e g>4 <ds gs>
   \time 4/4
-  <e g>2 <ds gs>2 <d a'>1
+  <d a'>1
 }
 
 ea = \relative c'' {
   \global
   \clef treble
+  \time 3/4
+  <g d'>4^\markup "212c" <gs cs> <g c>
   \time 4/4
-  \tuplet 3/2 { <g d'>2^\markup "212c" <gs cs>2 <g c>2 } <fs b>1 
+  <fs b>1 
 }
 eb = \relative c' {
   \global
   \clef bass
+  \time 3/4
+  <b d>4 <as ds~> <a ds>
   \time 4/4
-  \tuplet 3/2 { <b d>2 <as ds~>2 <a ds>2 } <af d>1
+  <af d>1
 }
 
 fa = \relative c'' {
   \global
   \clef treble
+  \time 2/4
+  <a c>4^\markup "212d" <gs cs>
   \time 4/4
-  <a c>2^\markup "212d" <gs cs>2 <g d'>1
+  <g d'>1
 }
 fb = \relative c' {
   \global
   \clef bass
+  \time 2/4
+  <a e'>4 <as ds>
   \time 4/4
-  <a e'>2 <as ds>2 <b d>1
+  <b d>1
 }
 
 ga = \relative c'' {
   \global
   \clef treble
+  \time 2/4
+  <c f>2^\markup {214} 
   \time 4/4
-  <c f>1^\markup {214} <b e>1
+  <b e>1
 }
 gb = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 2/4
   << { \voiceOne 
-       g1 gs1
+       g2 
+       \time 4/4
+       gs1
        }
        \new Voice  
        { \voiceTwo
-       d2 ds2 e1
+       d4 ds4 
+       \time 4/4
+       e1
        } >>
 }
 
@@ -123,85 +153,111 @@ ha = \relative c'' {
   \global
   \clef treble
   \time 4/4
-  <bf ef>2^\markup {215a} <a ef'>2 <bf d>1
+  <bf ef~>4^\markup {215a} <a ef'>
+  \time 4/4
+  <bf d>1
 }
 hb = \relative c' {
   \global
   \clef bass
+  \time 2/4
+  <c f~>2 
   \time 4/4
-  <c f>1 <bf f'>1
+  <bf f'>1
 }
 
 ia = \relative c'' {
   \global
   \clef treble
+  \time 2/4
+  <bf ef>4^\markup {215b} <a d~>
   \time 4/4
-  <bf ef>2^\markup {215b} <a d>2 <g d'>1
+  <g d'>1
 }
 ib = \relative c' {
   \global
   \clef bass
+  \time 2/4
+  <c~ f>4 <c fs>
   \time 4/4
-  <c~ f>2 <c fs>2 <bf g'>1
+  <bf g'>1
 }
 
 ja = \relative c'' {
   \global
   \clef treble
+  \time 2/4
+  <bf ef>4^\markup {215c} <as e'>
   \time 4/4
-  <bf ef>2^\markup {215c} <as e'>2 <b ef>1
+  <b ef>1
 }
 jb = \relative c' {
   \global
   \clef bass
+  \time 2/4
+  <c~ f>4 <c gf'~>
   \time 4/4
-  <c f>2 <c gf'>2 <b gf'>1
+  <b gf'>1
 }
 
 ka = \relative c'' {
   \global
   \clef treble
+  \time 2/4
+  <bf ef>4^\markup {215d} <a ds>
   \time 4/4
-  <bf ef>2^\markup {215d} <a ds>2 <b e>1
+  <b e>1
 }
 kb = \relative c' {
   \global
   \clef bass
+  \time 2/4
+  <c f>4 <b fs'>
   \time 4/4
-  <c f>2 <b fs'>2 <gs e'>1
+  <gs e'>1
 }
 
 la = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+  \time 3/4
   << { \voiceOne 
-       g1^\markup {211a} fs1
+       g2.^\markup {211a} 
+       \time 4/4
+       fs1
        }
        \new Voice  
        { \voiceTwo
-       \tuplet 3/2 { d2 cs d~ } d1
+       d4 cs d~  
+       \time 4/4
+       d1
        } >>
 }
 
-lb = \relative c' {
+lb = \relative c {
   \global
-  \clef treble
+  \clef bass
+  \time 3/4
+  <e a~>2 <d a'>4~ 
   \time 4/4
-  \tuplet 3/2 {<e a>1 <d a'>2~} <d a'>1
+  <d a'>1
 }
 
 ma = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <a' d>4^\markup {214_other} 
   \time 4/4
-  <a' d>1^\markup {214_other} <c f>1
+  <c f>1
 }
 mb = \relative c' {
   \global
   \clef treble
+  \time 1/4
+  <d~ fs>4
   \time 4/4
-  <d~ fs>1 <d g>1
+  <d g>1
 }
 
 
