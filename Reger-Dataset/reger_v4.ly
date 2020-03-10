@@ -1880,6 +1880,1179 @@ zzb = \relative c' {
 >>
 }
 
+aaaa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+  c'4^\markup\bold "48" b2 as4
+       b1 \bar "|."
+     }
+      \new Voice {
+       \voiceTwo
+  e,2 d4 cs
+       b1
+      }
+>>
+
+}
+
+aaab = \relative c {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+a'4 g fs2~
+       fs1
+     }
+      \new Voice {
+       \voiceTwo
+a,4 e' fs fs, 
+       b1
+      }
+>>
+
+}
+
+bbba = \relative c' {
+  \global
+  \clef treble
+  \time 2/4
+  <<
+     {
+       \voiceOne
+c'4^\markup\bold "49" b a gs
+       a1 \bar "|."
+     }
+      \new Voice {
+       \voiceTwo
+a4 gs fs es 
+       fs1
+      }
+>>
+
+
+}
+
+bbbb = \relative c {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+e'4 d cs2~ cs1
+     }
+      \new Voice {
+       \voiceTwo
+a,4 b cs2
+       fs1
+      }
+>>
+
+
+}
+
+
+ccca = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+c''4^\markup\bold "50" b a gs~
+       gs1 \bar "|."
+     }
+      \new Voice {
+       \voiceTwo
+a4 gs fs ds 
+       e1
+      }
+>>
+   
+}
+cccb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+e4 d cs2
+       cs1
+     }
+      \new Voice {
+       \voiceTwo
+a,4 b fs gs
+       cs1
+      }
+>>
+
+}
+
+ddda = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+
+}
+dddb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+
+}
+
+eeea = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+eeeb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+
+}
+
+fffa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+fffb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+ggga = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+gggb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+hhha = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+    
+}
+hhhb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+iiia = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+    
+}
+iiib = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+jjja = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+    
+}
+jjjb = \relative c {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+kkka = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+kkkb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+llla = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+lllb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+mmma = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+mmmb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+nnna = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+nnnb = \relative c {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+oooa = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+  
+}
+ooob = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+pppa = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+pppb = \relative c {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+qqqa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+qqqb = \relative c {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+rrra = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+rrrb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+sssa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+sssb = \relative c' {
+\global
+\clef bass
+\time 4/4
+}
+
+ttta = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+tttb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+uuua = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+uuub = \relative c {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+vvva = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+vvvb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+wwwa = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+wwwb = \relative c {
+  \global
+  \clef bass
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+    
+xxxa = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+xxxb = \relative c'  {
+  \global
+  \clef bass
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+yyya = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+yyyb = \relative c'  {
+  \global
+  \clef bass
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+zzza = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+zzzb = \relative c'  {
+  \global
+  \clef bass
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+
+
+aaaaa = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+aaaab = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+bbbba = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+
+}
+bbbbb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+cccca = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+
+}
+ccccb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+
+}
+
+dddda = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+ddddb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+eeeea = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+eeeeb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+
+}
+
+ffffa = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+
+}
+ffffb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+gggga = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+ggggb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+hhhha = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+hhhhb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+iiiia = \relative c'' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+iiiib = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+jjjja = \relative c {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+jjjjb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
+kkkka = \relative c' {
+  \global
+  \clef treble
+  \time 4/4
+  <<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+kkkkb = \relative c' {
+\global
+\clef bass
+\time 4/4
+<<
+     {
+       \voiceOne
+
+     }
+      \new Voice {
+       \voiceTwo
+
+      }
+>>
+}
+
 \book{
   
 \score {
@@ -2617,6 +3790,525 @@ zzb = \relative c' {
     \new PianoStaff <<
       \new Staff = "zza" \zza
       \new Staff = "zzb" \zzb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "aaaa" \aaaa
+      \new Staff = "aaab" \aaab
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "bbba" \bbba
+      \new Staff = "bbbb" \bbbb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "ccca" \ccca
+      \new Staff = "cccb" \cccb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "ddda" \ddda
+      \new Staff = "dddb" \dddb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "eeea" \eeea
+      \new Staff = "eeeb" \eeeb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "fffa" \fffa
+      \new Staff = "fffb" \fffb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "ggga" \ggga
+      \new Staff = "gggb" \gggb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "hhha" \hhha
+      \new Staff = "hhhb" \hhhb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "iiia" \iiia
+      \new Staff = "iiib" \iiib
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "jjja" \jjja
+      \new Staff = "jjjb" \jjjb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "kkka" \kkka
+      \new Staff = "kkkb" \kkkb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "llla" \llla
+      \new Staff = "lllb" \lllb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "mmma" \mmma
+      \new Staff = "mmmb" \mmmb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "nnna" \nnna
+      \new Staff = "nnnb" \nnnb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "oooa" \oooa
+      \new Staff = "ooob" \ooob
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "pppa" \pppa
+      \new Staff = "pppb" \pppb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "qqqa" \qqqa
+      \new Staff = "qqqb" \qqqb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "rrra" \rrra
+      \new Staff = "rrrb" \rrrb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "sssa" \sssa
+      \new Staff = "sssb" \sssb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "ttta" \ttta
+      \new Staff = "tttb" \tttb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "uuua" \uuua
+      \new Staff = "uuub" \uuub
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "vvva" \vvva
+      \new Staff = "vvvb" \vvvb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "wwwa" \wwwa
+      \new Staff = "wwwb" \wwwb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "xxxa" \xxxa
+      \new Staff = "xxxb" \xxxb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "yyya" \yyya
+      \new Staff = "yyyb" \yyyb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "zzza" \zzza
+      \new Staff = "zzzb" \zzzb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "aaaaa" \aaaaa
+      \new Staff = "aaaab" \aaaab
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "bbbba" \bbbba
+      \new Staff = "bbbbb" \bbbbb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "cccca" \cccca
+      \new Staff = "ccccb" \ccccb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "dddda" \dddda
+      \new Staff = "ddddb" \ddddb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "eeeea" \eeeea
+      \new Staff = "eeeeb" \eeeeb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "ffffa" \ffffa
+      \new Staff = "ffffb" \ffffb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "gggga" \gggga
+      \new Staff = "ggggb" \ggggb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "hhhha" \hhhha
+      \new Staff = "hhhhb" \hhhhb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "iiiia" \iiiia
+      \new Staff = "iiiib" \iiiib
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "jjjja" \jjjja
+      \new Staff = "jjjjb" \jjjjb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "kkkka" \kkkka
+      \new Staff = "kkkkb" \kkkkb
     >>
   >>
   \layout {
