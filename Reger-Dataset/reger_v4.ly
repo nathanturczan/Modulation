@@ -2984,6 +2984,7 @@ iiiia = \relative c'' {
   \global
   \clef treble
   \time 4/4
+  \key cf \major
   <<
      {
        \voiceOne
@@ -2999,6 +3000,7 @@ iiiib = \relative c' {
 \global
 \clef bass
 \time 4/4
+\key cf \major
 <<
      {
        \voiceOne
@@ -3015,6 +3017,7 @@ jjjja = \relative c {
   \global
   \clef treble
   \time 4/4
+  \key cf \major
   <<
      {
        \voiceOne
@@ -3030,6 +3033,7 @@ jjjjb = \relative c' {
 \global
 \clef bass
 \time 4/4
+\key cf \major
 <<
      {
        \voiceOne
@@ -3046,6 +3050,7 @@ kkkka = \relative c' {
   \global
   \clef treble
   \time 4/4
+  \key cf \major
   <<
      {
        \voiceOne
@@ -3061,6 +3066,8 @@ kkkkb = \relative c' {
 \global
 \clef bass
 \time 4/4
+\key cf \major
+
 <<
      {
        \voiceOne
