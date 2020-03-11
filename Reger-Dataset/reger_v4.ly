@@ -2206,18 +2206,19 @@ a1 g
 >>
 }
 
-jjja = \relative c' {
+jjja = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+
   <<
      {
        \voiceOne
-
+\time 3/4 a2^\markup\bold "57" b4 
+       \time 4/4 c1 \bar "|." 
      }
       \new Voice {
        \voiceTwo
-
+e,4 f2 ef1
       }
 >>
     
@@ -2225,62 +2226,64 @@ jjja = \relative c' {
 jjjb = \relative c {
 \global
 \clef bass
-\time 4/4
+
 <<
      {
        \voiceOne
-
+c'4 d2 c1
      }
       \new Voice {
        \voiceTwo
-
+a4 d, g c,1
       }
 >>
 }
 
-kkka = \relative c {
+kkka = \relative c'' {
   \global
   \clef treble
-  \time 4/4
   <<
      {
        \voiceOne
-
+\time 3/4 a4^\markup\bold "58" bf2 
+       \time 4/4 af1 \bar "|." 
      }
       \new Voice {
        \voiceTwo
-
+e4 f g f1
       }
 >>
 }
 kkkb = \relative c' {
 \global
 \clef bass
-\time 4/4
+
 <<
      {
        \voiceOne
-
+c4 d df c1
      }
       \new Voice {
        \voiceTwo
-
+a4 d, e f1
       }
 >>
 }
 
-llla = \relative c {
+llla = \relative c'' {
   \global
   \clef treble
   \time 4/4
   <<
      {
        \voiceOne
-
+a2^\markup\bold "59" c4 a 
+       bf1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e,4 f g f8 ef
+       df1
       }
 >>
 }
@@ -2291,42 +2294,48 @@ lllb = \relative c' {
 <<
      {
        \voiceOne
-
+c4 d c2
+       bf1
+       
      }
       \new Voice {
        \voiceTwo
-
+a4 d, e f
+       bf,1
       }
 >>
 }
 
-mmma = \relative c' {
+mmma = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+
   <<
      {
        \voiceOne
-
+\time 3/4 a4^\markup\bold "60" bf af 
+       \time 4/4 gf1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e4 f2 ef1
       }
 >>
 }
 mmmb = \relative c' {
 \global
 \clef bass
-\time 4/4
+
 <<
      {
        \voiceOne
-
+c4 bf2~
+       bf1
      }
       \new Voice {
        \voiceTwo
-
+a,4 d2
+       ef1
       }
 >>
 }
@@ -2334,46 +2343,49 @@ mmmb = \relative c' {
 nnna = \relative c' {
   \global
   \clef treble
-  \time 4/4
   <<
      {
        \voiceOne
-
+\time 3/4 a'4^\markup\bold "61" bf2 
+       \time 4/4 af1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e4 f2 ef1
       }
 >>
 }
-nnnb = \relative c {
+nnnb = \relative c' {
 \global
 \clef bass
-\time 4/4
+
 <<
      {
        \voiceOne
-
+c4 d df cf1
      }
       \new Voice {
        \voiceTwo
-
+a4 d, ef
+       af1
       }
 >>
 }
 
-oooa = \relative c {
+oooa = \relative c'' {
   \global
   \clef treble
   \time 4/4
   <<
      {
        \voiceOne
-
+c4^\markup\bold "62" bf2 af4~
+       af1 \bar "|." 
      }
       \new Voice {
        \voiceTwo
-
+a4 f g af8 gf
+       ff1
       }
 >>
   
@@ -2385,58 +2397,66 @@ ooob = \relative c' {
 <<
      {
        \voiceOne
-
+e4 d df c 
+       df1
      }
       \new Voice {
        \voiceTwo
-
+a4 d, ef af
+       df,1
       }
 >>
 }
 
-pppa = \relative c {
+pppa = \relative c'' {
   \global
   \clef treble
   \time 4/4
-  <<
-     {
-       \voiceOne
-
-     }
-      \new Voice {
-       \voiceTwo
-
-      }
->>
-}
-pppb = \relative c {
-\global
-\clef bass
-\time 4/4
 <<
      {
        \voiceOne
-
+\time 5/4 c4^\markup\bold "63" bf2 af4~ af4
+       \time 4/4 gf1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+a4 f g af8 gf f4
+       gf1
       }
 >>
 }
-
-qqqa = \relative c' {
-  \global
-  \clef treble
-  \time 4/4
+pppb = \relative c' {
+\global
+\clef bass
   <<
      {
        \voiceOne
-
+e4 d df c 
+       cf4 bff1
      }
       \new Voice {
        \voiceTwo
+a4 d, ef af df,4
+       gf1
+      }
+>>
 
+}
+
+qqqa = \relative c'' {
+  \global
+  \clef treble
+
+  <<
+     {
+       \voiceOne
+c2^\markup\bold "64" bf2
+       cf1 \bar "|." 
+     }
+      \new Voice {
+       \voiceTwo
+e,4 f gf4. ff8
+       eff1
       }
 >>
 }
@@ -2447,79 +2467,100 @@ qqqb = \relative c {
 <<
      {
        \voiceOne
-
+a'4 c df2
+       cf1
      }
       \new Voice {
        \voiceTwo
-
+a4~ a bf gf 
+       cf,1
       }
 >>
 }
 
-rrra = \relative c' {
+rrra = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+
   <<
      {
        \voiceOne
-
+\time 6/4 c2^\markup\bold "65" bf2 cf2~
+       \time 4/4 cf1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e,4 f gf4. ff8
+       ef2 ff1
       }
 >>
 }
 rrrb = \relative c' {
 \global
 \clef bass
-\time 4/4
+
 <<
      {
        \voiceOne
-
+a4 c df2
+       cf4. bff8 aff1
      }
       \new Voice {
        \voiceTwo
-
+a4~ a bf gf cf,2 
+       ff1
+       
       }
 >>
 }
 
-sssa = \relative c' {
+sssa = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+
   <<
      {
        \voiceOne
-
+\time 3/4 a2^\markup\bold "66" g4~
+       \time 4/4 g1 \bar "|."
+       
      }
       \new Voice {
        \voiceTwo
-
+e4 f2 e1
       }
 >>
 }
 sssb = \relative c' {
 \global
 \clef bass
-\time 4/4
+  <<
+     {
+       \voiceOne
+c4 d8 c b4 c1
+     }
+      \new Voice {
+       \voiceTwo
+a4 d, g
+       c,1
+      }
+>>
 }
 
-ttta = \relative c {
+ttta = \relative c'' {
   \global
   \clef treble
   \time 4/4
   <<
      {
        \voiceOne
-
+a4^\markup\bold "67" c b a
+       b1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e,4 a g fs
+       g1
       }
 >>
 }
@@ -2530,58 +2571,66 @@ tttb = \relative c' {
 <<
      {
        \voiceOne
-
+c4 e d2~
+       d1
      }
       \new Voice {
        \voiceTwo
-
+a4 c, d2
+       g1
       }
 >>
 }
 
-uuua = \relative c {
+uuua = \relative c'' {
   \global
   \clef treble
   \time 4/4
   <<
      {
        \voiceOne
-
+a4^\markup\bold "68" g8 b fs4 e
+       fs1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e2 d4. cs8
+       d1
       }
 >>
 }
-uuub = \relative c {
+uuub = \relative c' {
 \global
 \clef bass
 \time 4/4
 <<
      {
        \voiceOne
-
+c4 b a2~
+       a1
      }
       \new Voice {
        \voiceTwo
-
+a4 e8 g a4 a,
+       d1
       }
 >>
 }
 
-vvva = \relative c' {
+vvva = \relative c'' {
   \global
   \clef treble
   \time 4/4
   <<
      {
        \voiceOne
-
+a2.^\markup\bold "69" gs4
+       a1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e4 f e4. d8
+       cs1
       }
 >>
 }
@@ -2592,42 +2641,48 @@ vvvb = \relative c' {
 <<
      {
        \voiceOne
-
+c4 d cs b
+       a1
      }
       \new Voice {
        \voiceTwo
-
+a4 d, e2
+       a,1
       }
 >>
 }
 
-wwwa = \relative c {
+wwwa = \relative c'' {
   \global
   \clef treble
-  \time 4/4
   <<
      {
        \voiceOne
-
+\time 2/4 
+       a4^\markup\bold "70" fs
+       \time 4/4 
+       gs1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e4 ds 
+       e1
       }
 >>
 }
-wwwb = \relative c {
+wwwb = \relative c' {
   \global
   \clef bass
-  \time 4/4
   <<
      {
        \voiceOne
-
+c4 b4~
+       b1
      }
       \new Voice {
        \voiceTwo
-
+a4 b4
+       e,1
       }
 >>
 }
@@ -2639,11 +2694,13 @@ xxxa = \relative c'' {
   <<
      {
        \voiceOne
-
+a4^\markup\bold "71" g fs2~ 
+       fs1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e2 ds4 cs
+       ds1
       }
 >>
 }
@@ -2654,27 +2711,31 @@ xxxb = \relative c'  {
   <<
      {
        \voiceOne
-
+c4 b2 as4 
+       b1
      }
       \new Voice {
        \voiceTwo
-
+a4 e fs2 
+       b,1
       }
 >>
 }
 
-yyya = \relative c' {
+yyya = \relative c'' {
   \global
   \clef treble
   \time 4/4
   <<
      {
        \voiceOne
-
+a4^\markup\bold "72" g fs es 
+       fs1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e2 ds4 cs~
+       cs1
       }
 >>
 }
@@ -2685,11 +2746,13 @@ yyyb = \relative c'  {
   <<
      {
        \voiceOne
-
+c4 b2 gs4 
+       as1
      }
       \new Voice {
        \voiceTwo
-
+a4 e b cs 
+       fs,1
       }
 >>
 }
@@ -2701,11 +2764,13 @@ zzza = \relative c'' {
   <<
      {
        \voiceOne
-
+a2^\markup\bold "73" gs2~ 
+       gs1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e4 fs~ fs es8 ds
+       es1
       }
 >>
 }
@@ -2716,29 +2781,33 @@ zzzb = \relative c'  {
   <<
      {
        \voiceOne
-
+c4 d8 cs bs2
+       cs1
      }
       \new Voice {
        \voiceTwo
-
+a4 fs gs2
+       cs,1
       }
 >>
 }
 
 
 
-aaaaa = \relative c' {
+aaaaa = \relative c'' {
   \global
   \clef treble
   \time 4/4
   <<
      {
        \voiceOne
-
+a4^\markup\bold "74" gs es fss
+       gs1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e2 css4 ds~
+       ds1
       }
 >>
 }
@@ -2749,27 +2818,31 @@ aaaab = \relative c' {
 <<
      {
        \voiceOne
-
+c4 b as2
+       bs1
      }
       \new Voice {
        \voiceTwo
-
+a4 e8 gs as4 ds,
+       gs1
       }
 >>
 }
 
-bbbba = \relative c' {
+bbbba = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+
   <<
      {
        \voiceOne
-
+\time 3/4 a4^\markup\bold "75" gs es
+       \time 4/4  fss1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e2 css4
+       ds1
       }
 >>
 
@@ -2777,15 +2850,16 @@ bbbba = \relative c' {
 bbbbb = \relative c' {
 \global
 \clef bass
-\time 4/4
+
 <<
      {
        \voiceOne
-
+c4 b as4~
+       as1
      }
       \new Voice {
        \voiceTwo
-
+a4 e8 gs as4 ds,1
       }
 >>
 }
@@ -2797,11 +2871,13 @@ cccca = \relative c' {
   <<
      {
        \voiceOne
-
+c'4^\markup\bold "76" b2 gss4
+       as1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e2 ds4 bs
+       css1
       }
 >>
 
@@ -2813,59 +2889,65 @@ ccccb = \relative c' {
 <<
      {
        \voiceOne
-
+a4 g fs es~
+       es1
      }
       \new Voice {
        \voiceTwo
-
+a,4 e' b8 ds es4
+       as,1
       }
 >>
 
 }
 
-dddda = \relative c' {
+dddda = \relative c'' {
   \global
   \clef treble
-  \time 4/4
   <<
      {
        \voiceOne
-
+\time 5/4 c4^\markup\bold "77" b2 gss4 fss4
+       \time 4/4 gss1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e2 ds4 bs2~
+       bs1
       }
 >>
 }
 ddddb = \relative c' {
 \global
 \clef bass
-\time 4/4
 <<
      {
        \voiceOne
-
+a4 g fs es dss4
+       es1
      }
       \new Voice {
        \voiceTwo
-
+a,4 e' b8 d es4 bs4
+       es,1
       }
 >>
 }
 
-eeeea = \relative c' {
+eeeea = \relative c'' {
   \global
   \clef treble
   \time 4/4
   <<
      {
        \voiceOne
-
+c4^\markup\bold "78" a bf g
+       f1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e4 d2 c4~ 
+       c1
       }
 >>
 }
@@ -2876,28 +2958,33 @@ eeeeb = \relative c' {
 <<
      {
        \voiceOne
-
+a4 f2 e4
+       a1
      }
       \new Voice {
        \voiceTwo
-
+a,4 d g, c
+       f,1
       }
 >>
 
 }
 
-ffffa = \relative c {
+ffffa = \relative c' {
   \global
   \clef treble
-  \time 4/4
   <<
      {
        \voiceOne
-
+\time 3/4 
+       c'4^\markup\bold "79" a2
+       \time 4/4 
+       bf1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e,4 f4 ef 
+       d1
       }
 >>
 
@@ -2905,77 +2992,88 @@ ffffa = \relative c {
 ffffb = \relative c' {
 \global
 \clef bass
-\time 4/4
+
 <<
      {
        \voiceOne
-
+a4 c2
+       bf1
      }
       \new Voice {
        \voiceTwo
-
+a,4 f2
+       bf1
       }
 >>
 }
 
-gggga = \relative c {
+gggga = \relative c'' {
   \global
   \clef treble
-  \time 4/4
   <<
      {
        \voiceOne
-
+\time 3/4 
+       c4^\markup\bold "80" bf4 af 
+       \time 4/4 
+       g1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+a4 f2
+       ef1
       }
 >>
 }
 ggggb = \relative c' {
 \global
 \clef bass
-\time 4/4
+
 <<
      {
        \voiceOne
-
+e4 d4 bf~
+       bf1
      }
       \new Voice {
        \voiceTwo
-
+a,4 d2
+       ef1
       }
 >>
 }
 
-hhhha = \relative c' {
+hhhha = \relative c'' {
   \global
   \clef treble
-  \time 4/4
+
   <<
      {
        \voiceOne
-
+\time 3/4 a4^\markup\bold "81" bf2
+       \time 4/4 af1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e4 f g
+       ef1
       }
 >>
 }
 hhhhb = \relative c' {
 \global
 \clef bass
-\time 4/4
+
 <<
      {
        \voiceOne
-
+c4 d df 
+       c1
      }
       \new Voice {
        \voiceTwo
-
+a,4 d ef
+       af1
       }
 >>
 }
