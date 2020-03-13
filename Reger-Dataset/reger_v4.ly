@@ -3082,15 +3082,17 @@ iiiia = \relative c'' {
   \global
   \clef treble
   \time 4/4
-  \key cf \major
+
   <<
      {
        \voiceOne
-
+a4^\markup\bold "82" bf2 af4~
+       af1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e4 f gf4. f16 ef
+       f1
       }
 >>
 }
@@ -3098,65 +3100,71 @@ iiiib = \relative c' {
 \global
 \clef bass
 \time 4/4
-\key cf \major
+
 <<
      {
        \voiceOne
-
+c4 d ef8 df c4
+       df1
      }
       \new Voice {
        \voiceTwo
-
+a,4 d8 bf ef4 af 
+       df,1
       }
 >>
 }
 
-jjjja = \relative c {
+jjjja = \relative c'' {
   \global
   \clef treble
-  \time 4/4
-  \key cf \major
+
   <<
      {
        \voiceOne
-
+\time 5/4 a4^\markup\bold "83" bf2 cf4 af4
+       \time 4/4 bf1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e,4 f gf af f4
+       gf1
       }
 >>
 }
 jjjjb = \relative c' {
 \global
 \clef bass
-\time 4/4
-\key cf \major
+
 <<
      {
        \voiceOne
-
+c4 d ef2 df4~
+       df1
      }
       \new Voice {
        \voiceTwo
-
+a,4 d8 bf ef4 cf df4
+       gf1
       }
 >>
 }
 
-kkkka = \relative c' {
+kkkka = \relative c'' {
   \global
   \clef treble
   \time 4/4
-  \key cf \major
+
   <<
      {
        \voiceOne
-
+c2^\markup\bold "84" bf2
+       cf1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+e,4 f gf2
+       g1
       }
 >>
 }
@@ -3164,16 +3172,18 @@ kkkkb = \relative c' {
 \global
 \clef bass
 \time 4/4
-\key cf \major
+
 
 <<
      {
        \voiceOne
-
+a4 c df4. ff8
+       ef1
      }
       \new Voice {
        \voiceTwo
-
+a,4~ a bf4. g8
+       cf1
       }
 >>
 }
