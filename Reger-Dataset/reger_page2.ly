@@ -509,27 +509,30 @@ df4^\markup\bold "92a" c a gs~
      }
       \new Voice {
        \voiceTwo
-
+af2 fs4 ds
+       es1
       }
 >>
 }
-nb = \relative c {
+nb = \relative c' {
 \global
 \clef bass
 \key df \minor
 <<
      {
        \voiceOne
-
+ff4 ef d4 bs4
+       cs1
      }
       \new Voice {
        \voiceTwo
-
+df4 af8 c d fs, gs4
+       cs,1
       }
 >>
 }
 
-oa = \relative c {
+oa = \relative c' {
   \global
   \clef treble
   \time 4/4
@@ -537,11 +540,13 @@ oa = \relative c {
 <<
      {
        \voiceOne
-
+df'4^\markup\bold "92b" c a gs~
+       gs1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+af2 fs4 ds
+       e1
       }
 >>
 }
@@ -553,44 +558,50 @@ ob = \relative c' {
 <<
      {
        \voiceOne
-
+ff4 ef d4 bs4
+       cs1
      }
       \new Voice {
        \voiceTwo
-
+df4 af8 c d fs, gs4
+       cs,1
       }
 >>
 }
 
-pa = \relative c {
+pa = \relative c' {
   \global
   \clef treble
-  \time 4/4
+
   \key df \minor
 <<
      {
        \voiceOne
-
+\time 5/4 df'4^\markup\bold "93a" c a~ a fs4
+       \time 4/4 gs1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+af2 fs4 ef ds4~
+       ds1
       }
 >>
 }
-pb = \relative c {
+pb = \relative c' {
 \global
 \clef bass
-\time 4/4
+
 \key df \minor
 <<
      {
        \voiceOne
-
+ff4 ef d4 e8 cs as4
+       bs1
      }
       \new Voice {
        \voiceTwo
-
+df4 af8 c d d, cs4 ds4
+       gs,1
       }
 >>
 }
@@ -598,32 +609,35 @@ pb = \relative c {
 qa = \relative c' {
   \global
   \clef treble
-  \time 4/4
+  
   \key df \minor
   <<
      {
        \voiceOne
-
+\time 5/4 df'4^\markup\bold "93b" c a~ a fs4
+       \time 4/4 gs1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+af2 fs4 ef ds4~
+       ds1
       }
 >>
 }
 qb = \relative c {
 \global
 \clef bass
-\time 4/4
 \key df \minor
 <<
      {
        \voiceOne
-
+ff'4 ef d4 e8 cs as4
+       b1
      }
       \new Voice {
        \voiceTwo
-
+df4 af8 c d d, cs4 ds4
+       gs,1
       }
 >>
 }
@@ -631,32 +645,34 @@ qb = \relative c {
 ra = \relative c' {
   \global
   \clef treble
-  \time 4/4
   \key df \minor
   <<
      {
        \voiceOne
-
+\time 5/4 df'4^\markup\bold "94a" c a gs es4
+       \time 4/4 fs1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+af2 fs8 f e4 css4
+       ds1
       }
 >>
 }
 rb = \relative c' {
 \global
 \clef bass
-\time 4/4
 \key df \minor
 <<
      {
        \voiceOne
-
+ff4 ef d b as4~
+       as1
      }
       \new Voice {
        \voiceTwo
-
+df4 af8 c d d, e gs as4
+       ds,1
       }
 >>
 }
@@ -664,162 +680,181 @@ rb = \relative c' {
 sa = \relative c' {
   \global
   \clef treble
-  \time 4/4
   \key df \minor
   <<
      {
        \voiceOne
-
+\time 5/4 df'4^\markup\bold "94b" c a gs es4
+       \time 4/4 fss1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+af2 fs8 f e4 css4
+       ds1
       }
 >>
 }
 sb = \relative c' {
 \global
 \clef bass
-\time 4/4
 \key df \minor
 <<
      {
        \voiceOne
-
+ff4 ef d b as4~
+       as1
      }
       \new Voice {
        \voiceTwo
-
+df4 af8 c d d, e gs as4
+       ds,1
       }
 >>
 }
 
-ta = \relative c {
+ta = \relative c'' {
   \global
   \clef treble
-  \time 4/4
-  \key df \minor
+  \key as \minor
+
   <<
      {
        \voiceOne
- 
+ \time 6/4 as4^\markup\bold "95a" b g a c2
+       \time 4/4 bf1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+es,4 fs e f2 ef4
+       d1
       }
 >>
 }
 tb = \relative c' {
 \global
 \clef bass
-\time 4/4
-\key df \minor
+\key as \minor
+
 <<
      {
        \voiceOne
-
+cs4 ds8 b~ b4 c4~ c2
+       f,1
      }
       \new Voice {
        \voiceTwo
-
+as4 ds, e a,2. 
+       bf1
+       
       }
 >>
 }
 
-ua = \relative c {
+ua = \relative c'' {
   \global
   \clef treble
-  \key df \minor
+  \key as \minor
   <<
      {
        \voiceOne
-
+\time 6/4 as4^\markup\bold "95b" b g a c2
+       \time 4/4 bf1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+es,4 fs e f2 ef4
+       df1
       }
 >>
 }
 ub = \relative c {
 \global
 \clef bass
-\key df \minor
+\key as \minor
 <<
      {
        \voiceOne
-
+cs'4 ds8 b~ b4 c4~ c2
+       f,1
      }
       \new Voice {
        \voiceTwo
-
+as4 ds, e a,2. 
+       bf1
       }
 >>
 }
 
-va = \relative c' {
+va = \relative c'' {
   \global
   \clef treble
-  \time 4/4
-  \key df \minor
+
+  \key as \minor
   <<
      {
        \voiceOne
-
+\time 5/4 cs4^\markup\bold "96a" b g a8 c d4
+       \time 4/4 ef1 \bar "|."
      }
       \new Voice {
        \voiceTwo
- 
+cs,4  ds8 b~ b4 f'2
+       g1
       }
 >>
 }
-vb = \relative c' {
+vb = \relative c {
 \global
 \clef bass
-\time 4/4
-\key df \minor
+
+\key as \minor
 <<
      {
        \voiceOne
-
+es4 fs e4 c'4 bf4~
+       bf1
      }
       \new Voice {
        \voiceTwo
-
+as,4 ds e a, bf4
+       ef1
       }
 >>
 }
 
-wa = \relative c {
+wa = \relative c'' {
   \global
   \clef treble
-  \time 4/4
-  \key df \minor
+  \key as \minor
   <<
      {
        \voiceOne
-
+\time 5/4 cs4^\markup\bold "96b" b g a8 c d4
+       \time 4/4 ef1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+cs,4  ds8 b~ b4 f'2
+       gf1
+       
       }
 >>
 }
 wb = \relative c {
   \global
   \clef bass
-  \time 4/4
-  \key df \minor
+
+  \key as \minor
   <<
      {
        \voiceOne
-
+es4 fs e4 c'4 bf4~
+       bf1
      }
       \new Voice {
        \voiceTwo
-
+as,4 ds e a, bf4
+       ef1
       }
 >>
 }
@@ -827,65 +862,74 @@ wb = \relative c {
 xa = \relative c'' {
   \global
   \clef treble
-  \time 4/4
-  \key df \minor
+
+  \key as \minor
   <<
      {
        \voiceOne
-
+\time 6/4 as4^\markup\bold "97a" b g a8 c d4 ef8 df
+       \time 4/4 c1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+es,4 fs e f2 ef4~
+       ef1
       }
 >>
 }
 xb = \relative c'  {
   \global
   \clef bass
-  \time 4/4
-  \key df \minor
+
+  \key as \minor
   <<
      {
        \voiceOne
-
+cs4 ds8 b~ b4 c4 bf2
+       af1
      }
       \new Voice {
        \voiceTwo
-
+as4 ds, e a, bf g
+       af1
       }
 >>
 }
 
-ya = \relative c' {
+ya = \relative c'' {
   \global
   \clef treble
-  \time 4/4
-  \key df \minor
+
+  \key as \minor
   <<
      {
        \voiceOne
-
+\time 6/4 as4^\markup\bold "97b" b g a8 c d4 ef8 df
+       \time 4/4 cf1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+es,4 fs e f2 ef4~
+       ef1
       }
 >>
 }
 yb = \relative c'  {
   \global
   \clef bass
-  \time 4/4
-  \key df \minor
+
+  \key as \minor
   <<
      {
        \voiceOne
-
+cs4 ds8 b~ b4 c4 bf2
+       af1
      }
       \new Voice {
        \voiceTwo
-
+as4 ds, e a, bf g
+       af1
+       
       }
 >>
 }
@@ -893,35 +937,247 @@ yb = \relative c'  {
 za = \relative c'' {
   \global
   \clef treble
-  \time 4/4
-  \key df \minor
+
+  \key as \minor
   <<
      {
        \voiceOne
-
+\time 7/4 as4^\markup\bold "98a" b g8 b c4 bf2 af4~
+       \time 4/4 af1 \bar "|."
      }
       \new Voice {
        \voiceTwo
-
+es4 fs e2 f4 g af8 gf
+       f1
       }
 >>
 }
 zb = \relative c'  {
   \global
   \clef bass
-  \time 4/4
-  \key df \minor
+
+  \key as \minor
   <<
      {
        \voiceOne
-
+cs4 ds b a8 c 
+       d8 f ef4 c4 
+       df1
      }
       \new Voice {
        \voiceTwo
-
+as4 ds, g a4 d,4 ef4 af4
+       df,1
       }
 >>
 }
+
+aaa = \relative c'' {
+  \global
+  \clef treble
+
+  \key as \minor
+  <<
+     {
+       \voiceOne
+\time 7/4 as4^\markup\bold "98b" b g8 b c4 bf2 af4~
+       \time 4/4 af1 \bar "|."
+       
+     }
+      \new Voice {
+       \voiceTwo
+es4 fs e2 f4 g af8 gf
+       ff1
+       
+      }
+>>
+}
+aab = \relative c'  {
+  \global
+  \clef bass
+
+  \key as \minor
+  <<
+     {
+       \voiceOne
+cs4 ds b a8 c 
+       d8 f ef4 c4 
+       df1
+     }
+      \new Voice {
+       \voiceTwo
+as4 ds, g a4 d,4 ef4 af4
+       df,1
+      }
+>>
+}
+
+bba = \relative c'' {
+  \global
+  \clef treble
+
+  \key as \minor
+  <<
+     {
+       \voiceOne
+\time 8/4 
+       as4^\markup\bold "99a" b g8 b c4
+       bf2 c4 df8 cf
+       \time 4/4 
+       bf1 \bar "|."
+     }
+      \new Voice {
+       \voiceTwo
+es,4 fs e2 f4 g af2
+       gf1
+      }
+>>
+}
+bbb = \relative c'  {
+  \global
+  \clef bass
+
+  \key as \minor
+  <<
+     {
+       \voiceOne
+cs4 ds b a8 c
+       d8 f ef4~ ef df4~
+       df1
+     }
+      \new Voice {
+       \voiceTwo
+as4 ds, e8 g a4 d,4 ef af f
+       gf1
+      }
+>>
+}
+
+cca = \relative c'' {
+  \global
+  \clef treble
+
+  \key as \minor
+  <<
+     {
+       \voiceOne
+\time 8/4 
+       as4^\markup\bold "99b" b g8 b c4
+       bf2 c4 df8 cf
+       \time 4/4 
+       bff1 \bar "|."
+     }
+      \new Voice {
+       \voiceTwo
+es,4 fs e2 f4 g af2
+       gf1
+      }
+>>
+}
+ccb = \relative c'  {
+  \global
+  \clef bass
+
+  \key as \minor
+  <<
+     {
+       \voiceOne
+cs4 ds b a8 c
+       d8 f ef4~ ef df4~
+       df1
+     }
+      \new Voice {
+       \voiceTwo
+as4 ds, e8 g a4 d,4 ef af f
+       gf1
+      }
+>>
+}
+
+dda = \relative c'' {
+  \global
+  \clef treble
+
+  \key as \minor
+  <<
+     {
+       \voiceOne
+\time 8/4 
+       as4^\markup\bold "100a" b2 c4
+       bf2 cf4 bf4
+       \time 4/4 
+       cf1 \bar "|."
+     }
+      \new Voice {
+       \voiceTwo
+es,4 fs e2 f4 g gf2~
+       gf1
+      }
+>>
+}
+ddb = \relative c'  {
+  \global
+  \clef bass
+
+  \key as \minor
+  <<
+     {
+       \voiceOne
+cs4 ds b a8 c
+       d8 f ef2 df4
+       ef1
+     }
+      \new Voice {
+       \voiceTwo
+as,4 ds,4 g a 
+       d, ef2 gf4 
+       cf,1
+      }
+>>
+}
+
+eea = \relative c'' {
+  \global
+  \clef treble
+
+  \key as \minor
+  <<
+     {
+       \voiceOne
+\time 8/4 
+       as4^\markup\bold "100b" b2 c4
+       bf2 cf4 bf4
+       \time 4/4 
+       cf1 \bar "|."
+     }
+      \new Voice {
+       \voiceTwo
+es,4 fs e2 f4 g gf2~
+       gf1
+      }
+>>
+}
+eeb = \relative c'  {
+  \global
+  \clef bass
+
+  \key as \minor
+  <<
+     {
+       \voiceOne
+cs4 ds b a8 c
+       d8 f ef2 df4
+       eff1
+     }
+      \new Voice {
+       \voiceTwo
+as,4 ds,4 g a 
+       d, ef2 gf4 
+       cf,1
+      }
+>>
+}
+
 
 \book{
   
@@ -1289,4 +1545,81 @@ zb = \relative c'  {
     \tempo 4 = 90
   }
 }
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "aaa" \aaa
+      \new Staff = "aab" \aab
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "bba" \bba
+      \new Staff = "bbb" \bbb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "cca" \cca
+      \new Staff = "ccb" \ccb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "dda" \dda
+      \new Staff = "ddb" \ddb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
+\score {
+  <<
+    \new PianoStaff <<
+      \new Staff = "eea" \eea
+      \new Staff = "eeb" \eeb
+    >>
+  >>
+  \layout {
+    \context { \Staff \RemoveEmptyStaves  }
+  }
+  \midi { 
+    \tempo 4 = 90
+  }
+}
+
+
 }
